@@ -29,9 +29,9 @@ case $cmd in
   fi
 
   # Create container
-	docker volume create appdata #completed
+	docker volume create pgdata #completed
   # Start the container
-	docker run appdata #completed
+	docker run pgdata #completed
   # Make sure you understand what's `$?`
 	exit $?
 	;;
