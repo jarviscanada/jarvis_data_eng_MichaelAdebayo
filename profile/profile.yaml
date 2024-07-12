@@ -1,0 +1,126 @@
+# Preferred name (Characters only)
+name: "Michael Adebayo"
+# Your GitHub repo root URL
+github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_MichaelAdebayo
+
+
+# Introduce yourself, your academic and professional background.
+# What excites you about the software industry and your passion. At least 80 words
+summary: My name is Michael Adebayo. I hold a Bachelor of Science Honors degree in Computer Science from Trent University. My professional journey began as a Performance Test Analyst at CIBC where I tested the performance of applications, and I am currently employed at Jarvis as a Junior Software Engineer. What excites me about the software industry is its constant evolution and the immense potential it offers to achieve unimaginable things. I am particularly passionate about artificial intelligence and big data and what it can bring for us as a people, and I am eager to explore the possibilities these fields present.
+
+
+# Group your skills by level.
+# Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+skills:
+  # At least 5 skills
+  proficient:
+    - Java
+    - IntelliJ
+    - RDBMS/SQL
+    - Agile/Scrum
+    - Git
+  # At least 5 skills
+  competent:
+    - Python
+    - C#
+    - Docker
+    - Linux
+    - Bash
+  # At least 5 skills
+  familiar:
+    - HTML
+    - CSS
+    - Rust
+    - C++
+    - Springboot
+
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Cluster Monitor"
+    git_url: https://github.com/jarviscanada/jarvis_data_eng_MichaelAdebayo/blob/main/linux_sql
+    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Worked on a project that has the goal of creating scripts that will be able to collect hardware data and resource usage data, that will enable the Jarvis Linux Cluster Administration to determine how they can properly manage resources from a cluster.
+  - name: "Core Java Apps"
+    git_url: https://github.com/jarviscanada/jarvis_data_eng_MichaelAdebayo/blob/main/core_java
+    description:
+      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      - "Grep App: Coded an application with that has the purpose to mimic the Linux grep command that will allow for the use of searching matching strings from files using expressions."
+  - name: "Springboot App"
+    git_url: "/springboot"
+    description: ""
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlytics"
+    description: ""
+  - name: "Hadoop"
+    git_url: "/hadoop"
+    description: ""
+  - name: "Spark"
+    git_url: "/spark"
+    description: ""
+  - name: "Cloud/DevOps"
+    git_url: "/cloud_devops"
+    description: ""
+
+
+# List of personal or academic projects
+# Feel free to add more projects
+highlighted_projects:
+  #project name
+  - name: "Pokemon Trainer Game"
+    #URL is optional
+    git_url: "https://github.com/MichaelAdebayo/Pokemon_Project"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: Programmed a a simple text-based game where you, as a Pokemon Trainer, can select a Pokemon type, battle against computer opponents, and level up your Pokemon.
+  - name: "Dental Practice Web Application"
+    git_url: https://github.com/MichaelAdebayo/SchoolProject
+    description: Collaborated with classmates to help develop a web application that allows end-users to log in to the web application dashboard, pulls data from the existing client database, guides users in cleaning the exported data, and provides documentation on how to use the app, as well as gives end-users access to look at data.
+#List of professional experience
+#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+#The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
+professional_experience:
+  #Write your Jarvis role as a professional experience rather than training.
+  - title: "Software Developer"
+    company: "Jarvis"
+    duration: "2024-present"
+    # The project description must start with an action verb (https://bit.ly/3guO98u)
+    description: "Responsible for assisting in the development, testing, and maintenance of software applications. As well as training with trainers to increase my skill."
+  - title: "Performance Test Analyst"
+    company: "Canadian Imperial Bank of Commerce"
+    duration: "2022 - 2023"
+    description: "Conduct performance testing and analysis on software systems to identify and resolve performance bottlenecks."
+
+
+
+
+#List of edcuation
+education:
+  - school_name: "Trent University"
+    duration: "2018-2023"
+    degree: "Bachelor of Science in Honours"
+    department: "Computer Science"
+    # optional
+    awards_achievements:
+      - "Academic Good Standing (2018 - 2023)"
+
+
+#Optional section
+others:
+  #category
+  - title: "Certificates"
+    #list of items
+    bullets:
+      - "Skill Hat Career Accelerator Course (2022 - 2023)"
+      - "CompTIA IT Fundamentals (2022)"
+      - "Microsoft Azure Fundamentals: Cloud Computing (2023)"
+      - "Introduction to Cloud (2023)"
+  - title: "Awards"
+    bullets:
+      - "Winner"
+  - title: "Activities/Hobbies"
+    bullets:
+      - "Basketball player"
+      - "Competitive gaming"
+      - "Book-club member"
