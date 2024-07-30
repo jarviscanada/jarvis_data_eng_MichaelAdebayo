@@ -81,10 +81,10 @@ public class QuoteHttpHelper {
             return quote;
         }
     }
-/*
+
     public static void main (String[] args) throws IOException {
         QuoteHttpHelper helper = new QuoteHttpHelper("JV614M7E20SIEUO3");
-        String symbol ="MSFT";
+        String symbol ="GOOGL";
 
         try {
             Quote quote = helper.fetchQuoteInfo(symbol);
@@ -109,7 +109,7 @@ public class QuoteHttpHelper {
 
     }
 
- */
+
 
 
 }
