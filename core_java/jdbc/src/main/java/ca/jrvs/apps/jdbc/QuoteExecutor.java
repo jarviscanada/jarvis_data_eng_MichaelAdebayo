@@ -1,20 +1,17 @@
 package ca.jrvs.apps.jdbc;
-import ca.jrvs.apps.jdbc.dao.Quote;
-import ca.jrvs.apps.jdbc.dao.QuoteDao;
 
-import ca.jrvs.apps.jdbc.dao.Position;
+import ca.jrvs.apps.jdbc.dto.Position;
 import ca.jrvs.apps.jdbc.dao.PositionDao;
+import ca.jrvs.apps.jdbc.util.DatabaseConnectionManager;
 
 import java.sql.Connection;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.Optional;
 
 public class QuoteExecutor {
     public static void main(String[] args) throws SQLException {
         DatabaseConnectionManager dcm = new DatabaseConnectionManager("localhost",
-                "stock_quote", "postgres", "password");
+                "stock_quote", "postgres", "newpassword");
 
         try {
             Connection connection = dcm.getConnection();

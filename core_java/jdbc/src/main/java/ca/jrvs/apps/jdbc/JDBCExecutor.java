@@ -1,14 +1,14 @@
 package ca.jrvs.apps.jdbc;
 
+import ca.jrvs.apps.jdbc.util.DatabaseConnectionManager;
+
 import java.sql.Connection;
-import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
 
 public class JDBCExecutor {
     public static void main(String[] args) {
         DatabaseConnectionManager dcm = new DatabaseConnectionManager("localhost",
-                "hplussport", "postgres", "password");
+                "hplussport", "postgres", "newpassword");
         try{
             Connection connection = dcm.getConnection();
             CustomerDAO customerDAO = new CustomerDAO(connection);

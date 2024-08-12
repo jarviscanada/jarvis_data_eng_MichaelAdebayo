@@ -1,7 +1,7 @@
 package ca.jrvs.apps.jdbc.dao;
 
-import ca.jrvs.apps.jdbc.DatabaseConnectionManager;
-import org.junit.After;
+import ca.jrvs.apps.jdbc.util.DatabaseConnectionManager;
+import ca.jrvs.apps.jdbc.dto.Position;
 import org.junit.Before;
 import org.junit.Test;
 

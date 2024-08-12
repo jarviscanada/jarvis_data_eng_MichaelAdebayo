@@ -1,7 +1,7 @@
 package ca.jrvs.apps.jdbc.dao;
 
-import ca.jrvs.apps.jdbc.DatabaseConnectionManager;
-import org.junit.After;
+import ca.jrvs.apps.jdbc.util.DatabaseConnectionManager;
+import ca.jrvs.apps.jdbc.dto.Quote;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,7 +19,7 @@ public class QuoteDaoTest {
 
     @Before
     public void setUp() throws Exception {
-        DatabaseConnectionManager dcm = new DatabaseConnectionManager("localhost", "stock_quote", "postgres", "password");
+        DatabaseConnectionManager dcm = new DatabaseConnectionManager("localhost", "stock_quote", "postgres", "newpassword");
         try {
              connection = dcm.getConnection();
              quoteDao = new QuoteDao(connection);

@@ -1,6 +1,6 @@
 package ca.jrvs.apps.jdbc.dao;
 
-import org.junit.Assert;
+import ca.jrvs.apps.jdbc.dto.Quote;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

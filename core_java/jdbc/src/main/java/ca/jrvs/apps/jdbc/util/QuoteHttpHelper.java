@@ -1,4 +1,4 @@
-package ca.jrvs.apps.jdbc.dao;
+package ca.jrvs.apps.jdbc.util;
 
 import java.io.IOException;
 
@@ -7,8 +7,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
-import ca.jrvs.apps.jdbc.util.JsonParser;
-import ca.jrvs.apps.jdbc.dao.Quote;
+import ca.jrvs.apps.jdbc.dto.Quote;
 
 
 public class QuoteHttpHelper {
@@ -84,12 +83,11 @@ public class QuoteHttpHelper {
 
     public static void main (String[] args) throws IOException {
         QuoteHttpHelper helper = new QuoteHttpHelper("JV614M7E20SIEUO3");
-        String symbol ="GOOGL";
+        String symbol ="MSFT";
 
         try {
             Quote quote = helper.fetchQuoteInfo(symbol);
             System.out.println("Symbol: " + quote.getSymbol());
-            System.out.println("Ticker: " + quote.getTicker());
             System.out.println("Open: " + quote.getOpen());
             System.out.println("High: " + quote.getHigh());
             System.out.println("Low: " + quote.getLow());

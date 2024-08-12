@@ -1,4 +1,4 @@
-package ca.jrvs.apps.jdbc.dao;
+package ca.jrvs.apps.jdbc.dto;
 
 public class Position {
 

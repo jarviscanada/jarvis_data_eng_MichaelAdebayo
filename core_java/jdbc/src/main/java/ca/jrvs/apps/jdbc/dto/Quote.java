@@ -1,22 +1,50 @@
-package ca.jrvs.apps.jdbc.dao;
+package ca.jrvs.apps.jdbc.dto;
+
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import java.sql.Date;
 import java.sql.Timestamp;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Quote {
+
+    @JsonProperty("01. symbol")
     private String symbol;
-    private String ticker; 
+
+
+    @JsonProperty("02. open")
     private double open;
+
+    @JsonProperty("03. high")
     private double high;
+
+    @JsonProperty("04. low")
     private double low;
+
+    @JsonProperty("05. price")
     private double price;
+
+    @JsonProperty("06. volume")
     private int volume;
+
+    @JsonProperty("07. latest trading day")
+    private String latestTradingDayString;
+
     private Date latestTradingDay;
+
+    @JsonProperty("08. previous close")
     private double previousClose;
+
+    @JsonProperty("09. change")
     private double change;
+
+    @JsonProperty("10. change percent")
     private String changePercent;
+
     private Timestamp timestamp;
+
+    // Getters and setters
 
     public String getSymbol() {
         return symbol;
@@ -24,13 +52,6 @@ public class Quote {
 
     public void setSymbol(String symbol) {
         this.symbol = symbol;
-    }
-    public String getTicker() {
-        return ticker;
-    }
-
-    public void setTicker(String ticker) {
-        this.ticker = ticker;
     }
 
     public double getOpen() {
@@ -113,4 +134,12 @@ public class Quote {
         this.timestamp = timestamp;
     }
 
+    public String getLatestTradingDayString() {
+        return latestTradingDayString;
+    }
+
+    public void setLatestTradingDayString(String latestTradingDayString) {
+        this.latestTradingDayString = latestTradingDayString;
+        this.latestTradingDay = Date.valueOf(latestTradingDayString);
+    }
 }
