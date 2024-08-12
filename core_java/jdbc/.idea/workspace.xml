@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5c45407e-cc58-4a84-bb6a-636ff29694ab" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MichaelAdebayo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:jarviscanada/jarvis_data_eng_MichaelAdebayo.git&quot;,
+    &quot;accountId&quot;: &quot;3f1a02c7-317c-4bab-bbde-b2d391154568&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2j9YkAPO13F3evhIcv7w56Haisw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.JDBCExecutor.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.QuoteExecutor.executor": "Run",
+    "Application.QuoteHttpHelper.executor": "Run",
+    "JUnit.PositionDaoTest.findAll.executor": "Run",
+    "JUnit.PositionDaoTest.findById.executor": "Run",
+    "JUnit.PositionDaoTest.save.executor": "Run",
+    "JUnit.PositionService_IntTest.executor": "Run",
+    "JUnit.PositionService_IntTest.testBuyPosition.executor": "Run",
+    "JUnit.PositionService_IntTest.testSellPosition.executor": "Run",
+    "JUnit.PositionService_UnitTest.executor": "Run",
+    "JUnit.QuoteDaoTest.deleteById.executor": "Run",
+    "JUnit.QuoteDaoTest.executor": "Run",
+    "JUnit.QuoteDaoTest.findAll.executor": "Run",
+    "JUnit.QuoteDaoTest.findById.executor": "Run",
+    "JUnit.QuoteDaoTest.save.executor": "Run",
+    "JUnit.QuoteHttpHelperTest.fetchQuoteInfoSymbol.executor": "Run",
+    "JUnit.QuoteService_IntTest.executor": "Run",
+    "JUnit.QuoteService_IntTest.fetchQuoteDataFromAPI.executor": "Run",
+    "JUnit.QuoteService_IntTest.testSaveQuote.executor": "Run",
+    "JUnit.QuoteService_UnitTest.executor": "Run",
+    "JUnit.QuoteService_UnitTest.fetchQuoteDataFromAP.executor": "Run",
+    "JUnit.QuoteService_UnitTest.fetchQuoteDataFromAPI.executor": "Run",
+    "JUnit.QuoteService_UnitTest.fetchQuoteDataFromAPIException.executor": "Run",
+    "JUnit.QuoteService_UnitTest.fetchQuoteDataFromAPISuccess.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "git-widget-placeholder": "feature/profile",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ca.jrvs.apps.jdbc.dao" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ca.jrvs.apps.jdbc" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ca.jrvs.apps.jdbc.dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="jdbc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuoteExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.jdbc.QuoteExecutor" />
+      <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuoteHttpHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.jdbc.util.QuoteHttpHelper" />
+      <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.jdbc.dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PositionService_IntTest.testSellPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.jdbc.dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.jrvs.apps.jdbc.dao" />
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.jdbc.dao.PositionService_IntTest" />
+      <option name="METHOD_NAME" value="testSellPosition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuoteService_IntTest.fetchQuoteDataFromAPI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.jrvs.apps.jdbc.dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.jrvs.apps.jdbc.dao" />
+      <option name="MAIN_CLASS_NAME" value="ca.jrvs.apps.jdbc.dao.QuoteService_IntTest" />
+      <option name="METHOD_NAME" value="fetchQuoteDataFromAPI" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.QuoteHttpHelper" />
+        <item itemvalue="Application.QuoteExecutor" />
+        <item itemvalue="JUnit.QuoteService_IntTest.fetchQuoteDataFromAPI" />
+        <item itemvalue="JUnit.PositionService_IntTest.testSellPosition" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5c45407e-cc58-4a84-bb6a-636ff29694ab" name="Changes" comment="" />
+      <created>1720800899717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720800899717</updated>
+      <workItem from="1720800900771" duration="1960000" />
+      <workItem from="1721059570049" duration="1228000" />
+      <workItem from="1721062073975" duration="17134000" />
+      <workItem from="1721659492893" duration="98929000" />
+      <workItem from="1722469666681" duration="34810000" />
+      <workItem from="1723060112941" duration="9355000" />
+      <workItem from="1723471122552" duration="7440000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
