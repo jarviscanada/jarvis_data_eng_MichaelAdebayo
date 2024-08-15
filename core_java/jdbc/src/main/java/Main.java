@@ -13,11 +13,16 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 import okhttp3.OkHttpClient;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 //first
 public class Main {
 
+  private static final Logger logger = LoggerFactory.getLogger(Main.class);
+
   public static void main(String[] args) {
+    logger.info("Starting application");
     // Load properties from file
     Map<String, String> properties = new HashMap<>();
     try (BufferedReader br = new BufferedReader(
@@ -27,17 +32,19 @@ public class Main {
         String[] tokens = line.split(":");
         properties.put(tokens[0], tokens[1]);
       }
+      logger.info("Loaded properties");
     } catch (FileNotFoundException e) {
-      e.printStackTrace();
+      logger.error("Unable to load properties", e);
     } catch (IOException e) {
-      e.printStackTrace();
+      logger.error("Error loading properties", e);
     }
 
     // Load database driver class
     try {
       Class.forName(properties.get("db-class"));
+      logger.info("Loaded database driver");
     } catch (ClassNotFoundException e) {
-      e.printStackTrace();
+      logger.error("Class not found", e);
     }
 
     // Create an OkHttpClient instance
@@ -47,6 +54,7 @@ public class Main {
     String url =
         "jdbc:postgresql://" + properties.get("server") + ":" + properties.get("port") + "/"
             + properties.get("database");
+    logger.info("Database connection is successfully established");
 
     // Establish a database connection
     try (Connection c = DriverManager.getConnection(url, properties.get("username"),
@@ -64,7 +72,7 @@ public class Main {
       con.initClient();
 
     } catch (SQLException e) {
-      e.printStackTrace();
+      logger.error("Database connection failed", e);
     }
   }
 }

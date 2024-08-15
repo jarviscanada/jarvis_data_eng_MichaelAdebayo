@@ -5,12 +5,15 @@ import ca.jrvs.apps.jdbc.util.PositionService;
 import ca.jrvs.apps.jdbc.util.QuoteService;
 import java.util.Optional;
 import java.util.Scanner;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * A controller class that handles user interactions with the stock quote application.
  */
 public class StockQuoteController {
 
+  private static final Logger logger = LoggerFactory.getLogger(StockQuoteController.class);
   private QuoteService quoteService;
   private PositionService positionService;
   private Position position;
@@ -45,6 +48,7 @@ public class StockQuoteController {
       System.out.println("5. Exit");
 
       String choice = scanner.nextLine();
+      logger.info("User selected: " + choice);
 
       switch (choice) {
         case "1":
@@ -62,9 +66,11 @@ public class StockQuoteController {
         case "5":
           running = false;
           System.out.println("Thank you for using the Stock Quote App. Goodbye!");
+          logger.info("User exited application");
           break;
         default:
           System.out.println("Invalid option. Please try again.");
+          logger.warn(choice + " is not a valid option");
       }
     }
     scanner.close();
@@ -78,17 +84,20 @@ public class StockQuoteController {
   private void viewStockQuote(Scanner scanner) {
     System.out.print("Enter the stock symbol: ");
     String symbol = scanner.nextLine();
+    logger.info("User entered: " + symbol);
     symbol = symbol.toUpperCase();
     try {
       Optional<Quote> quoteOpt = quoteService.fetchQuoteDataFromAPI(symbol);
       if (quoteOpt.isPresent()) {
         Quote quote = quoteOpt.get();
         System.out.println("Current stock price for " + symbol + ": " + quote.getPrice());
+        logger.info("Current stock price for " + symbol + ": " + quote.getPrice());
       } else {
         System.out.println("Stock symbol not found. Please try again.");
+        logger.warn("Stock symbol not found. Please try again.");
       }
     } catch (Exception e) {
-      System.out.println("Error retrieving stock quote. Please check the symbol and try again.");
+      logger.error("Error retrieving stock quote Please check the symbol and try again.", e);
     }
   }
 
@@ -114,8 +123,7 @@ public class StockQuoteController {
         System.out.println("Stock symbol not found. Please try again.");
       }
     } catch (Exception e) {
-      System.out.println("Error buying stock. Please check the input and try again.");
-      e.printStackTrace();  // For debugging purposes
+      logger.error("Error buying stock . Please check the input and try again.", e);
     }
   }
 
@@ -131,7 +139,7 @@ public class StockQuoteController {
     try {
       positionService.sellAll(symbol);
     } catch (Exception e) {
-      System.out.println("Error selling stock. Please check the input and try again.");
+      logger.error("Error selling stock. Please check the input and try again. ", e);
     }
   }
 
@@ -157,7 +165,7 @@ public class StockQuoteController {
         System.out.println("No position found for symbol: " + symbol);
       }
     } catch (Exception e) {
-      System.out.println("Error retrieving position. Please check the symbol and try again.");
+      logger.error("Error retrieving position. Please check the symbol and try again.", e);
     }
   }
 }

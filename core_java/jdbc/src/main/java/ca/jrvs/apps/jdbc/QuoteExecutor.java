@@ -8,42 +8,42 @@ import java.sql.SQLException;
 import java.util.Optional;
 
 public class QuoteExecutor {
-    public static void main(String[] args) throws SQLException {
-        DatabaseConnectionManager dcm = new DatabaseConnectionManager("localhost",
-                "stock_quote", "postgres", "newpassword");
 
-        try {
-            Connection connection = dcm.getConnection();
-            PositionDao positionDao = new PositionDao(connection);
+  public static void main(String[] args) throws SQLException {
+    DatabaseConnectionManager dcm = new DatabaseConnectionManager("localhost",
+        "stock_quote", "postgres", "newpassword");
 
-            // Create a new Position
-            Position newPosition = new Position();
-            newPosition.setsymbol("AAPL");
+    try {
+      Connection connection = dcm.getConnection();
+      PositionDao positionDao = new PositionDao(connection);
 
+      // Create a new Position
+      Position newPosition = new Position();
+      newPosition.setsymbol("AAPL");
 
-            positionDao.save(newPosition);
+      positionDao.save(newPosition);
 
-            Optional<Position> retrievedPosition = positionDao.findById("AAPL");
-            if (retrievedPosition.isPresent()) {
-                System.out.println("Position found: " + retrievedPosition.get());
-            } else {
-                System.out.println("Position not found");
-            }
+      Optional<Position> retrievedPosition = positionDao.findById("AAPL");
+      if (retrievedPosition.isPresent()) {
+        System.out.println("Position found: " + retrievedPosition.get());
+      } else {
+        System.out.println("Position not found");
+      }
 
-            newPosition.setNumOfShares(200);
-            newPosition.setValuePaid(155.0);
-            positionDao.save(newPosition);
+      newPosition.setNumOfShares(200);
+      newPosition.setValuePaid(155.0);
+      positionDao.save(newPosition);
 
-            Iterable<Position> allPositions = positionDao.findAll();
-            for (Position position : allPositions) {
-                System.out.println("Position: " + position);
-            }
-
-
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        }
+      Iterable<Position> allPositions = positionDao.findAll();
+      for (Position position : allPositions) {
+        System.out.println("Position: " + position);
+      }
 
 
+    } catch (SQLException e) {
+      e.printStackTrace();
     }
+  }
+
+
+}
