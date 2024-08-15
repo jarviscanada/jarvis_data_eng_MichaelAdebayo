@@ -5,21 +5,23 @@ import ca.jrvs.apps.jdbc.dao.QuoteDao;
 import ca.jrvs.apps.jdbc.dto.Position;
 import ca.jrvs.apps.jdbc.dto.Quote;
 import java.sql.Timestamp;
+import java.util.Optional;
 
+/**
+ * Service class for handling position related operations.
+ */
 public class PositionService {
 
   private final PositionDao positionDao;
   private final QuoteDao quoteDao;
   private final QuoteService quoteService;
-  private Quote quote;
 
-  /*
-      public PositionService(PositionDao positionDao, QuoteService quoteService) {
-          this.positionDao = positionDao;
-          this.quoteService = quoteService;
-
-      }
-
+  /**
+   * Constructor for PositionService.
+   *
+   * @param positionDao  the position dao
+   * @param quoteService the quote service
+   * @param quoteDao     the quote dao
    */
   public PositionService(PositionDao positionDao, QuoteService quoteService, QuoteDao quoteDao) {
     this.positionDao = positionDao;
@@ -27,16 +29,22 @@ public class PositionService {
     this.quoteDao = quoteDao;  // Initialize QuoteDao
   }
 
+  /**
+   * Retrieves the position associated with the given ticker symbol.
+   *
+   * @param ticker The ticker symbol of the position to retrieve.
+   * @return The position associated with the given ticker symbol, or null if no position is found.
+   */
   public Position getPosition(String ticker) {
     return positionDao.findById(ticker).orElse(null);
   }
 
   /**
-   * Processes a buy order and updates the database accordingly
+   * Processes a buy order and updates the database accordingly.
    *
-   * @param ticker
-   * @param numberOfShares
-   * @param price
+   * @param ticker         The ticker symbol of the stock to buy
+   * @param numberOfShares The number of shares to buy
+   * @param price          The price per share of the stock
    * @return The position in our database after processing the buy
    */
   public Position buy(String ticker, int numberOfShares, double price) {
@@ -44,10 +52,10 @@ public class PositionService {
     ticker = ticker.toUpperCase();
 
     // Fetch the latest quote data from the QuoteService
-    Quote quote = quoteService.fetchQuoteDataFromAPI(ticker).get();  // Fetch the latest quote
+    Optional<Quote> quote = quoteService.fetchQuoteDataFromAPI(ticker);  // Fetch the latest quote
 
     // Fetch the latest quote data and update the quote table
-    updateQuoteTable(ticker, quote);
+    updateQuoteTable(ticker, quote.get());
 
     // Fetch the current position from the database
     Position currentPosition = positionDao.findById(ticker).orElse(null);
@@ -78,18 +86,21 @@ public class PositionService {
     return currentPosition;
   }
 
-
+  /**
+   * Updates the quote table with the latest quote data from the QuoteService.
+   *
+   * @param ticker the ticker symbol of the stock
+   * @param quote  the latest quote data for the given ticker
+   */
   public void updateQuoteTable(String ticker, Quote quote) {
-
     quote.setTimestamp(new Timestamp(System.currentTimeMillis()));
     quoteDao.save(quote);
   }
 
-
   /**
-   * Sells all shares of the given ticker symbol
+   * Sells all shares of the given ticker symbol.
    *
-   * @param ticker
+   * @param ticker The ticker symbol of the stock to sell
    */
   public void sellAll(String ticker) {
     Position currentPosition = positionDao.findById(ticker).orElse(null);
@@ -103,10 +114,10 @@ public class PositionService {
   }
 
   /**
-   * Sells a specified number of shares of the given ticker symbol
+   * Sells a specified number of shares of the given ticker symbol.
    *
-   * @param ticker
-   * @param numberOfShares
+   * @param ticker         The ticker symbol of the stock to sell
+   * @param numberOfShares The number of shares to sell
    */
   public void sell(String ticker, int numberOfShares) {
     Position currentPosition = positionDao.findById(ticker).orElse(null);
@@ -125,6 +136,5 @@ public class PositionService {
       System.out.println("Not enough shares to sell or no position found for " + ticker);
     }
   }
-
 
 }
