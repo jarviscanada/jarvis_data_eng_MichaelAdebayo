@@ -1,7 +1,6 @@
 package ca.jrvs.apps.jdbc.dao;
 
 import ca.jrvs.apps.jdbc.dto.Quote;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

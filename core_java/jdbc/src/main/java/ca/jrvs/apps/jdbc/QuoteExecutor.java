@@ -1,9 +1,8 @@
 package ca.jrvs.apps.jdbc;
 
-import ca.jrvs.apps.jdbc.dto.Position;
 import ca.jrvs.apps.jdbc.dao.PositionDao;
+import ca.jrvs.apps.jdbc.dto.Position;
 import ca.jrvs.apps.jdbc.util.DatabaseConnectionManager;
-
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.Optional;

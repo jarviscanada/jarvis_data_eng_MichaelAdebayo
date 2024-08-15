@@ -1,7 +1,6 @@
 package ca.jrvs.apps.jdbc;
 
 import ca.jrvs.apps.jdbc.util.DatabaseConnectionManager;
-
 import java.sql.Connection;
 import java.sql.SQLException;
 

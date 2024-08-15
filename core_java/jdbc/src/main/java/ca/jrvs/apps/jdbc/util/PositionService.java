@@ -4,21 +4,31 @@ import ca.jrvs.apps.jdbc.dao.PositionDao;
 import ca.jrvs.apps.jdbc.dao.QuoteDao;
 import ca.jrvs.apps.jdbc.dto.Position;
 import ca.jrvs.apps.jdbc.dto.Quote;
+import java.sql.Timestamp;
 
 public class PositionService {
 
-    private PositionDao dao;
+    private PositionDao positionDao;
     private QuoteDao quoteDao;
     private QuoteService quoteService;
+    private Quote quote;
 
+/*
+    public PositionService(PositionDao positionDao, QuoteService quoteService) {
+        this.positionDao = positionDao;
+        this.quoteService = quoteService;
 
+    }
 
-    public PositionService(PositionDao dao) {
-        this.dao = dao;
+ */
+    public PositionService(PositionDao positionDao, QuoteService quoteService, QuoteDao quoteDao) {
+        this.positionDao = positionDao;
+        this.quoteService = quoteService;
+        this.quoteDao = quoteDao;  // Initialize QuoteDao
     }
 
     public Position getPosition(String ticker) {
-        return dao.findById(ticker).orElse(null);
+        return positionDao.findById(ticker).orElse(null);
     }
 
     /**
@@ -29,11 +39,17 @@ public class PositionService {
      * @return The position in our database after processing the buy
      */
     public Position buy(String ticker, int numberOfShares, double price) {
+        // Convert ticker to uppercase for consistency
+        ticker = ticker.toUpperCase();
 
-        updateQuoteTable(ticker);
+        // Fetch the latest quote data from the QuoteService
+        Quote quote = quoteService.fetchQuoteDataFromAPI(ticker).get();  // Fetch the latest quote
+
+        // Fetch the latest quote data and update the quote table
+        updateQuoteTable(ticker, quote);
 
         // Fetch the current position from the database
-        Position currentPosition = dao.findById(ticker).orElse(null);
+        Position currentPosition = positionDao.findById(ticker).orElse(null);
 
         if (currentPosition == null) {
             // Create a new position if it doesn't exist
@@ -41,25 +57,30 @@ public class PositionService {
             currentPosition.setsymbol(ticker);
             currentPosition.setNumOfShares(numberOfShares);
             currentPosition.setValuePaid(price);
-            dao.save(currentPosition);
+            positionDao.save(currentPosition);
+            System.out.println("Bought " + numberOfShares + " shares of " + ticker + " at $" + price);
         } else {
             // Update the existing position
             int newShares = currentPosition.getNumOfShares() + numberOfShares;
-            double newAveragePrice = ((currentPosition.getNumOfShares() * currentPosition.getValuePaid()) + (numberOfShares * price)) / newShares;
+            double totalPaid = (currentPosition.getNumOfShares() * currentPosition.getValuePaid()) + (numberOfShares * price);
+            double newAveragePrice = totalPaid / newShares;
             currentPosition.setNumOfShares(newShares);
             currentPosition.setValuePaid(newAveragePrice);
-            dao.save(currentPosition);
+            positionDao.save(currentPosition);
+            System.out.println("Updated position: Bought " + numberOfShares + " more shares of " + ticker + " at $" + price);
         }
 
         return currentPosition;
     }
-    private void updateQuoteTable(String ticker) {
-        // Fetch the latest quote data from the API
-        Quote quote = quoteService.fetchQuoteDataFromAPI(ticker).orElseThrow(() -> new RuntimeException("Failed to fetch quote data"));
 
-        // Update the quote with the latest price
+
+
+    public void updateQuoteTable(String ticker, Quote quote) {
+
+        quote.setTimestamp(new Timestamp(System.currentTimeMillis()));
         quoteDao.save(quote);
     }
+
 
 
 
@@ -68,11 +89,11 @@ public class PositionService {
      * @param ticker
      */
     public void sellAll(String ticker) {
-        Position currentPosition = dao.findById(ticker).orElse(null);
+        Position currentPosition = positionDao.findById(ticker).orElse(null);
         if (currentPosition != null) {
             double totalValue = currentPosition.getNumOfShares() * currentPosition.getValuePaid();
             System.out.println("Sold all shares of " + ticker + " for a total of $" + totalValue);
-            dao.deleteById(ticker);
+            positionDao.deleteById(ticker);
         } else {
             System.out.println("No position found for " + ticker);
         }
@@ -84,16 +105,16 @@ public class PositionService {
      * @param numberOfShares
      */
     public void sell(String ticker, int numberOfShares) {
-        Position currentPosition = dao.findById(ticker).orElse(null);
+        Position currentPosition = positionDao.findById(ticker).orElse(null);
         if (currentPosition != null && currentPosition.getNumOfShares() >= numberOfShares) {
             double amountSoldFor = numberOfShares * currentPosition.getValuePaid();
             System.out.println("Sold " + numberOfShares + " shares of " + ticker + " for $" + amountSoldFor);
             int remainingShares = currentPosition.getNumOfShares() - numberOfShares;
             currentPosition.setNumOfShares(remainingShares);
             if (remainingShares == 0) {
-                dao.deleteById(ticker);
+                positionDao.deleteById(ticker);
             } else {
-                dao.save(currentPosition);
+                positionDao.save(currentPosition);
             }
         } else {
             System.out.println("Not enough shares to sell or no position found for " + ticker);

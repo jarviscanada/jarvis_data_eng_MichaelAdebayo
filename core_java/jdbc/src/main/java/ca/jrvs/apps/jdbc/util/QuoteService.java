@@ -2,7 +2,6 @@ package ca.jrvs.apps.jdbc.util;
 
 import ca.jrvs.apps.jdbc.dao.QuoteDao;
 import ca.jrvs.apps.jdbc.dto.Quote;
-
 import java.io.IOException;
 import java.util.Optional;
 

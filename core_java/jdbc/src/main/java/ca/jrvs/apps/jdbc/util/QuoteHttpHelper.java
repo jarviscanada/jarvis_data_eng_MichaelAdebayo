@@ -1,13 +1,12 @@
 package ca.jrvs.apps.jdbc.util;
 
-import java.io.IOException;
-
+import ca.jrvs.apps.jdbc.dto.Quote;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import java.io.IOException;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
-import ca.jrvs.apps.jdbc.dto.Quote;
 
 
 public class QuoteHttpHelper {
@@ -79,32 +78,6 @@ public class QuoteHttpHelper {
 
             return quote;
         }
-    }
-
-    public static void main (String[] args) throws IOException {
-        QuoteHttpHelper helper = new QuoteHttpHelper("JV614M7E20SIEUO3");
-        String symbol ="MSFT";
-
-        try {
-            Quote quote = helper.fetchQuoteInfo(symbol);
-            System.out.println("Symbol: " + quote.getSymbol());
-            System.out.println("Open: " + quote.getOpen());
-            System.out.println("High: " + quote.getHigh());
-            System.out.println("Low: " + quote.getLow());
-            System.out.println("Price: " + quote.getPrice());
-            System.out.println("Volume: " + quote.getVolume());
-            System.out.println("Latest Trading Day: " + quote.getLatestTradingDay());
-            System.out.println("Previous Close: " + quote.getPreviousClose());
-            System.out.println("Change: " + quote.getChange());
-            System.out.println("Change Percent: " + quote.getChangePercent());
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-        }
-
-
-
     }
 
 

@@ -10,6 +10,7 @@ import org.junit.Test;
 import java.sql.Connection;
 import java.sql.SQLException;
 
+
 import static org.junit.Assert.*;
 
 public class PositionService_IntTest {
@@ -27,7 +28,7 @@ public class PositionService_IntTest {
             e.printStackTrace();
         }
         positionDao = new PositionDao(c);
-        positionService = new PositionService(positionDao);
+        //positionService = new PositionService(positionDao, null);
     }
 
     @After
@@ -39,7 +40,7 @@ public class PositionService_IntTest {
 
     @Test
     public void testBuyPosition() throws Exception {
-        String ticker = "MSFT";
+        String ticker = "AAPL";
         int numberOfShares = 10;
         double price = 100.0;
 

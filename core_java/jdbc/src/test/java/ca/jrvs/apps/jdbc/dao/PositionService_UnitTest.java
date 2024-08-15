@@ -31,7 +31,7 @@ public class PositionService_UnitTest {
     @Test
     public void buyStock() {
         // Define test variables
-        String ticker = "GOOGL";
+        String ticker = "AAPL";
         int numberOfShares = 50;
         double price = 160.00;
 

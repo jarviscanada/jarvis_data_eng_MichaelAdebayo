@@ -1,12 +1,13 @@
 package ca.jrvs.apps.jdbc.dao;
 
 import ca.jrvs.apps.jdbc.dto.Position;
-
-import java.sql.*;
-import java.util.Optional;
 import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class PositionDao implements CrudDao<Position, String> {
 

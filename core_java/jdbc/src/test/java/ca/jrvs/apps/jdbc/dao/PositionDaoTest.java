@@ -19,7 +19,7 @@ public class PositionDaoTest {
 
     @Before
     public void setUp() throws Exception {
-        DatabaseConnectionManager dcm = new DatabaseConnectionManager("localhost", "stock_quote", "postgres", "password");
+        DatabaseConnectionManager dcm = new DatabaseConnectionManager("localhost", "stock_quote", "postgres", "newpassword");
         try {
             connection = dcm.getConnection();
             quoteDao = new QuoteDao(connection);
@@ -37,7 +37,7 @@ public class PositionDaoTest {
     @Test
     public void save() {
         Position newPosition = new Position();
-        newPosition.setsymbol("MSFT");
+        newPosition.setsymbol("AAPL");
         newPosition.setNumOfShares(100);
         newPosition.setValuePaid(10000.00);
 
@@ -45,9 +45,9 @@ public class PositionDaoTest {
         positionDao.save(newPosition);
 
         // Retrieve the saved Position and verify its fields
-        Position savedPosition = positionDao.findById("MSFT").orElse(null);
+        Position savedPosition = positionDao.findById("AAPL").orElse(null);
         assertNotNull(savedPosition);
-        assertEquals("MSFT", savedPosition.getsymbol());
+        assertEquals("AAPL", savedPosition.getsymbol());
         assertEquals(100, savedPosition.getNumOfShares());
         assertEquals(10000.00, savedPosition.getValuePaid(), 0.01);
 

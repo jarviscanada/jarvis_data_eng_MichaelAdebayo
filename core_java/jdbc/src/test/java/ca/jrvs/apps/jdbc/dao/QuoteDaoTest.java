@@ -35,8 +35,8 @@ public class QuoteDaoTest {
     @Test
     public void save() {
         Quote newQuote = new Quote();
-        newQuote.setSymbol("MSFT");
-        newQuote.setOpen(431.58);
+        newQuote.setSymbol("AAPL");
+        newQuote.setOpen(433.58);
         newQuote.setHigh(432.15);
         newQuote.setLow(424.70);
         newQuote.setPrice(426.73);
