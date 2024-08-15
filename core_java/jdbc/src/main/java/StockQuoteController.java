@@ -14,8 +14,8 @@ import org.slf4j.LoggerFactory;
 public class StockQuoteController {
 
   private static final Logger logger = LoggerFactory.getLogger(StockQuoteController.class);
-  private QuoteService quoteService;
-  private PositionService positionService;
+  private final QuoteService quoteService;
+  private final PositionService positionService;
   private Position position;
   private QuoteDao quoteDao;
 
@@ -43,9 +43,10 @@ public class StockQuoteController {
       System.out.println("Please select an option:");
       System.out.println("1. View Stocks");
       System.out.println("2. Buy Stocks");
-      System.out.println("3. Sell All Stocks");
-      System.out.println("4. View Position");
-      System.out.println("5. Exit");
+      System.out.println("3. Sell Stocks");
+      System.out.println("4. Sell All Stocks");
+      System.out.println("5. View Position");
+      System.out.println("6. Exit");
 
       String choice = scanner.nextLine();
       logger.info("User selected: " + choice);
@@ -61,9 +62,12 @@ public class StockQuoteController {
           sellStock(scanner);
           break;
         case "4":
-          viewPosition(scanner);
+          sellAllStock(scanner);
           break;
         case "5":
+          viewPosition(scanner);
+          break;
+        case "6":
           running = false;
           System.out.println("Thank you for using the Stock Quote App. Goodbye!");
           logger.info("User exited application");
@@ -133,7 +137,7 @@ public class StockQuoteController {
    *
    * @param scanner the scanner to read user input from
    */
-  private void sellStock(Scanner scanner) {
+  private void sellAllStock(Scanner scanner) {
     System.out.print("Enter the stock symbol: ");
     String symbol = scanner.nextLine();
     try {
@@ -142,6 +146,25 @@ public class StockQuoteController {
       logger.error("Error selling stock. Please check the input and try again. ", e);
     }
   }
+
+  /**
+   * Sells shares of a given stock symbol.
+   *
+   * @param scanner the scanner to read user input from
+   */
+
+  private void sellStock(Scanner scanner) {
+    System.out.print("Enter the stock symbol: ");
+    String symbol = scanner.nextLine();
+    System.out.print("Enter the number of shares: ");
+    int shares = Integer.parseInt(scanner.nextLine());
+    try {
+      positionService.sell(symbol, shares);
+    } catch (Exception e) {
+      logger.error("Error selling stock. Please check the input and try again. ", e);
+    }
+  }
+
 
   /**
    * Views the position for a given stock symbol.

@@ -124,7 +124,8 @@ public class PositionService {
     if (currentPosition != null && currentPosition.getNumOfShares() >= numberOfShares) {
       double amountSoldFor = numberOfShares * currentPosition.getValuePaid();
       System.out.println(
-          "Sold " + numberOfShares + " shares of " + ticker + " for $" + amountSoldFor);
+          "Sold " + numberOfShares + " shares of " + ticker + " for $" + String.format("%.2f",
+              amountSoldFor));
       int remainingShares = currentPosition.getNumOfShares() - numberOfShares;
       currentPosition.setNumOfShares(remainingShares);
       if (remainingShares == 0) {
