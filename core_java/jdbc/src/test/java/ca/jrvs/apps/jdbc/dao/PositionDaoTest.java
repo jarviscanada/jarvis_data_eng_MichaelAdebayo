@@ -2,6 +2,7 @@ package ca.jrvs.apps.jdbc.dao;
 
 import ca.jrvs.apps.jdbc.util.DatabaseConnectionManager;
 import ca.jrvs.apps.jdbc.dto.Position;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -22,6 +23,7 @@ public class PositionDaoTest {
         DatabaseConnectionManager dcm = new DatabaseConnectionManager("localhost", "stock_quote", "postgres", "newpassword");
         try {
             connection = dcm.getConnection();
+            connection.setAutoCommit(false);
             quoteDao = new QuoteDao(connection);
             positionDao = new PositionDao(connection);
 
@@ -29,6 +31,14 @@ public class PositionDaoTest {
             e.printStackTrace();
         }
 
+    }
+
+    @After
+    public void tearDown() throws SQLException {
+        if (connection != null && !connection.isClosed()) {
+            connection.rollback();
+            connection.close();
+        }
     }
 
 
@@ -64,15 +74,13 @@ public class PositionDaoTest {
     @Test
     public void findAll() {
 
-
-
         // Fetch all records and verify the results
         Iterable<Position> positions = positionDao.findAll();
         int count = 0;
         for (Position position : positions) {
             count++;
         }
-        assertEquals(2, count);
+        assertEquals(1, count);
     }
 
     @Test

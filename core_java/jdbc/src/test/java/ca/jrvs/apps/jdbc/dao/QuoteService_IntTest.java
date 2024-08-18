@@ -4,6 +4,7 @@ import ca.jrvs.apps.jdbc.util.DatabaseConnectionManager;
 import ca.jrvs.apps.jdbc.dto.Quote;
 import ca.jrvs.apps.jdbc.util.QuoteHttpHelper;
 import ca.jrvs.apps.jdbc.util.QuoteService;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -19,6 +20,8 @@ public class QuoteService_IntTest {
     private QuoteService quoteService;
     private static Connection c;
     private static DatabaseConnectionManager dcm;
+
+    
 
     @Before
     public void setUpClass() {
@@ -43,5 +46,12 @@ public class QuoteService_IntTest {
         Optional<Quote> quote = quoteService.fetchQuoteDataFromAPI(ticker);
         assertTrue(quote.isPresent());
         assertEquals(ticker, quote.get().getSymbol());
+    }
+    
+    @After
+    public void tearDown() throws Exception {
+        if (c != null && !c.isClosed()) {
+            c.close();
+        }
     }
 }

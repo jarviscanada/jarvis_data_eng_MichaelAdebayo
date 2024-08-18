@@ -2,6 +2,8 @@ package ca.jrvs.apps.jdbc.dao;
 
 import ca.jrvs.apps.jdbc.util.QuoteHttpHelper;
 import ca.jrvs.apps.jdbc.util.QuoteService;
+
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -70,7 +72,5 @@ public class QuoteService_UnitTest {
         assertEquals("-4.4462%", result.get().getChangePercent());
 
     }
-
-
 
 }

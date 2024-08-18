@@ -2,6 +2,7 @@ package ca.jrvs.apps.jdbc.dao;
 
 import ca.jrvs.apps.jdbc.util.DatabaseConnectionManager;
 import ca.jrvs.apps.jdbc.dto.Quote;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -22,6 +23,7 @@ public class QuoteDaoTest {
         DatabaseConnectionManager dcm = new DatabaseConnectionManager("localhost", "stock_quote", "postgres", "newpassword");
         try {
              connection = dcm.getConnection();
+             connection.setAutoCommit(false);
              quoteDao = new QuoteDao(connection);
 
         } catch (SQLException e){
@@ -29,6 +31,16 @@ public class QuoteDaoTest {
         }
 
     }
+
+
+    @After
+    public void tearDown() throws SQLException {
+        if (connection != null && !connection.isClosed()) {
+            connection.rollback();
+            connection.close();
+        }
+    }
+
 
 
 
@@ -49,7 +61,7 @@ public class QuoteDaoTest {
 
         quoteDao.save(newQuote);
 
-        Optional<Quote> retrievedQuote = quoteDao.findById("MSFT");
+        Optional<Quote> retrievedQuote = quoteDao.findById("AAPL");
         assertTrue(retrievedQuote.isPresent());
         assertEquals(426.73, retrievedQuote.get().getPrice(), 0.0);
     }
@@ -68,13 +80,13 @@ public class QuoteDaoTest {
         for (Quote quote : quotes) {
             count++;
         }
-        assertEquals(2, count);
+        assertEquals(1, count);
     }
 
     @Test
     public void deleteById() {
-        quoteDao.deleteById("MSFT");
-        Optional<Quote> retrievedQuote = quoteDao.findById("MSFT");
+        quoteDao.deleteById("AAPL");
+        Optional<Quote> retrievedQuote = quoteDao.findById("AAPL");
         assertFalse(retrievedQuote.isPresent());
     }
 

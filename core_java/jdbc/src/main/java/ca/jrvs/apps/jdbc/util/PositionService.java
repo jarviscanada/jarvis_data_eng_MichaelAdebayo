@@ -79,7 +79,7 @@ public class PositionService {
       currentPosition.setValuePaid(newAveragePrice);
       positionDao.save(currentPosition);
       System.out.println(
-          "Updated position: Bought " + numberOfShares + " more shares of " + ticker + " at $"
+          "Updated position: Bought " + numberOfShares + " more shares of " + ticker + " for $"
               + price);
     }
 
