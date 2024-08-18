@@ -21,7 +21,7 @@ docker run -it --rm --network="host" michaeladebayo/stockquote
 
 ## [ER Diagram](#er-diagram)
 
-[ERD.png](assets/ERD.png)
+![ERD.png](assets/ERD.png)
 
 ## [Design Patterns](#design-patterns)
 
