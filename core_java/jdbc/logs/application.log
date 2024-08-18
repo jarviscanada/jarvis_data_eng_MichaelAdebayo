@@ -1,0 +1,18 @@
+2024-08-15 00:38:37 INFO  ca.jrvs.apps.jdbc.Main:25 - Starting application
+2024-08-15 00:38:37 INFO  ca.jrvs.apps.jdbc.Main:35 - Loaded properties
+2024-08-15 00:38:37 INFO  ca.jrvs.apps.jdbc.Main:45 - Loaded database driver
+2024-08-15 00:38:38 INFO  ca.jrvs.apps.jdbc.Main:57 - Database connection is successfully established
+2024-08-15 00:38:47 INFO  ca.jrvs.apps.jdbc.StockQuoteController:51 - User selected: 1
+2024-08-15 00:38:56 INFO  ca.jrvs.apps.jdbc.StockQuoteController:87 - User entered: 45rer
+2024-08-15 00:38:57 ERROR ca.jrvs.apps.jdbc.StockQuoteController:100 - Error retrieving stock quote Please check the symbol and try again.
+java.lang.IllegalArgumentException: Invalid response from API or symbol not found
+	at ca.jrvs.apps.jdbc.util.QuoteHttpHelper.fetchQuoteInfo(QuoteHttpHelper.java:76)
+	at ca.jrvs.apps.jdbc.util.QuoteService.fetchQuoteDataFromAPI(QuoteService.java:28)
+	at ca.jrvs.apps.jdbc.StockQuoteController.viewStockQuote(ca.jrvs.apps.jdbc.StockQuoteController.java:90)
+	at ca.jrvs.apps.jdbc.StockQuoteController.initClient(ca.jrvs.apps.jdbc.StockQuoteController.java:55)
+	at ca.jrvs.apps.jdbc.Main.main(ca.jrvs.apps.jdbc.Main.java:72)
+2024-08-15 00:39:02 INFO  ca.jrvs.apps.jdbc.StockQuoteController:51 - User selected: 1
+2024-08-15 00:39:05 INFO  ca.jrvs.apps.jdbc.StockQuoteController:87 - User entered: ibm
+2024-08-15 00:39:05 INFO  ca.jrvs.apps.jdbc.StockQuoteController:94 - Current stock price for IBM: 192.32
+2024-08-15 00:39:26 INFO  ca.jrvs.apps.jdbc.StockQuoteController:51 - User selected: 5
+2024-08-15 00:39:26 INFO  ca.jrvs.apps.jdbc.StockQuoteController:69 - User exited application
