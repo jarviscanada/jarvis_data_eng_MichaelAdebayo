@@ -20,11 +20,10 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MichaelAde
 
 
 **Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MichaelAdebayo/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MichaelAdebayo/blob/main/core_java)]:
-Core Java Apps:
 
-Grep App: Developed an application mimicking the Linux grep command, allowing users to search for matching strings within files using regular expressions. The application recursively searches within a target directory for files that match the expression and returns the results. It can be run using a Docker image or locally using a JAR file.
+**Grep App**: Developed an application mimicking the Linux grep command, allowing users to search for matching strings within files using regular expressions. The application recursively searches within a target directory for files that match the expression and returns the results. It can be run using a Docker image or locally using a JAR file.
 
-Stock Quote App: Completed a Stock Quote application that allows users to manage and track stock positions by interacting with a PostgreSQL database. The application retrieves real-time stock data using the Alpha Vantage API, with data parsing handled by JSON and HTTP requests managed via the OkHttp library. The project was implemented in Java, employing the DAO design pattern to separate business logic from data access. Testing was done using JUnit and Mockito as well as manual testing to ensure the application ran correctly. The application was containerized with Docker for easy deployment.
+**Stock Quote App**: Completed a Stock Quote application that allows users to manage and track stock positions by interacting with a PostgreSQL database. The application retrieves real-time stock data using the Alpha Vantage API, with data parsing handled by JSON and HTTP requests managed via the OkHttp library. The project was implemented in Java, employing the DAO design pattern to separate business logic from data access. Testing was done using JUnit and Mockito as well as manual testing to ensure the application ran correctly. The application was containerized with Docker for easy deployment.
 
 
 
