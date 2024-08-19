@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c45407e-cc58-4a84-bb6a-636ff29694ab" name="Changes" comment="" />
+    <list default="true" id="5c45407e-cc58-4a84-bb6a-636ff29694ab" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../profile/jarvis_profile_Michael_Adebayo.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../profile/jarvis_profile_Michael_Adebayo.pdf" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -45,48 +54,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.JDBCExecutor.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.QuoteExecutor.executor": "Run",
-    "Application.QuoteHttpHelper.executor": "Run",
-    "JUnit.PositionDaoTest.findAll.executor": "Run",
-    "JUnit.PositionDaoTest.findById.executor": "Run",
-    "JUnit.PositionDaoTest.save.executor": "Run",
-    "JUnit.PositionService_IntTest.executor": "Run",
-    "JUnit.PositionService_IntTest.testBuyPosition.executor": "Run",
-    "JUnit.PositionService_IntTest.testSellPosition.executor": "Run",
-    "JUnit.PositionService_UnitTest.executor": "Run",
-    "JUnit.QuoteDaoTest.deleteById.executor": "Run",
-    "JUnit.QuoteDaoTest.executor": "Run",
-    "JUnit.QuoteDaoTest.findAll.executor": "Run",
-    "JUnit.QuoteDaoTest.findById.executor": "Run",
-    "JUnit.QuoteDaoTest.save.executor": "Run",
-    "JUnit.QuoteHttpHelperTest.fetchQuoteInfoSymbol.executor": "Run",
-    "JUnit.QuoteService_IntTest.executor": "Run",
-    "JUnit.QuoteService_IntTest.fetchQuoteDataFromAPI.executor": "Run",
-    "JUnit.QuoteService_IntTest.testSaveQuote.executor": "Run",
-    "JUnit.QuoteService_UnitTest.executor": "Run",
-    "JUnit.QuoteService_UnitTest.fetchQuoteDataFromAP.executor": "Run",
-    "JUnit.QuoteService_UnitTest.fetchQuoteDataFromAPI.executor": "Run",
-    "JUnit.QuoteService_UnitTest.fetchQuoteDataFromAPIException.executor": "Run",
-    "JUnit.QuoteService_UnitTest.fetchQuoteDataFromAPISuccess.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "git-widget-placeholder": "feature/profile",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "advanced.settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.JDBCExecutor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuoteExecutor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QuoteHttpHelper.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PositionDaoTest.findAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PositionDaoTest.findById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PositionDaoTest.save.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PositionService_IntTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PositionService_IntTest.testBuyPosition.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PositionService_IntTest.testSellPosition.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PositionService_UnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuoteDaoTest.deleteById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuoteDaoTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuoteDaoTest.findAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuoteDaoTest.findById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuoteDaoTest.save.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuoteHttpHelperTest.fetchQuoteInfoSymbol.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuoteService_IntTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuoteService_IntTest.fetchQuoteDataFromAPI.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuoteService_IntTest.testSaveQuote.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuoteService_UnitTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuoteService_UnitTest.fetchQuoteDataFromAP.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuoteService_UnitTest.fetchQuoteDataFromAPI.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuoteService_UnitTest.fetchQuoteDataFromAPIException.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.QuoteService_UnitTest.fetchQuoteDataFromAPISuccess.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/profile&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/core_java/jdbc&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ca.jrvs.apps.jdbc.dao" />
@@ -180,8 +190,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.300" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.300" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
       </set>
     </attachedChunks>
   </component>
@@ -200,6 +210,8 @@
       <workItem from="1722469666681" duration="34810000" />
       <workItem from="1723060112941" duration="9355000" />
       <workItem from="1723471122552" duration="7440000" />
+      <workItem from="1724034991118" duration="1185000" />
+      <workItem from="1724096031195" duration="18000" />
     </task>
     <servers />
   </component>
