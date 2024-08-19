@@ -6,3 +6,9 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+# Ignore IntelliJ IDEA files
+/.idea/
+/core_java/.idea/
+/core_java/jdbc/.idea/
+/core_java/jdbc/.vscode/
