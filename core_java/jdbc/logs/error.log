@@ -1,0 +1,7 @@
+2024-08-15 00:38:57 ERROR ca.jrvs.apps.jdbc.StockQuoteController:100 - Error retrieving stock quote Please check the symbol and try again.
+java.lang.IllegalArgumentException: Invalid response from API or symbol not found
+	at ca.jrvs.apps.jdbc.util.QuoteHttpHelper.fetchQuoteInfo(QuoteHttpHelper.java:76)
+	at ca.jrvs.apps.jdbc.util.QuoteService.fetchQuoteDataFromAPI(QuoteService.java:28)
+	at ca.jrvs.apps.jdbc.StockQuoteController.viewStockQuote(ca.jrvs.apps.jdbc.StockQuoteController.java:90)
+	at ca.jrvs.apps.jdbc.StockQuoteController.initClient(ca.jrvs.apps.jdbc.StockQuoteController.java:55)
+	at ca.jrvs.apps.jdbc.Main.main(ca.jrvs.apps.jdbc.Main.java:72)
