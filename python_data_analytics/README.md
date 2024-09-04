@@ -23,6 +23,7 @@ Marketing Strategy: Based on the RFM segmentation, marketing strategies are impl
 engagement and sales.
 
 # [Architecture Diagram](#architecture-diagram)
+
 ![LSG.png](assets/LSG.png)
 
 ## Data Analytics and Wrangling
