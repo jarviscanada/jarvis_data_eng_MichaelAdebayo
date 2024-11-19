@@ -1497,3 +1497,4 @@ Caused by: java.io.IOException: error=2, No such file or directory
 2024.11.19 15:51:58 WARN  no build target for: /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/Combinators.sc
 2024.11.19 15:51:58 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/Combinators.sc. Using presentation compiler with project's scala-library version: 3.3.4
 2024.11.19 15:52:00 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.19 15:54:58 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.4
