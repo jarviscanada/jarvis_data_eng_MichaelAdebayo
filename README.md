@@ -57,5 +57,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MichaelAde
 - CompTIA IT Fundamentals (2022)
 - Microsoft Azure Fundamentals: Cloud Computing (2023)
 - CIBC: Introduction to Cloud (2023)
+-  Academy Accreditation - Databricks Fundamentals (2024)
+- Databricks Certified Associate Developer for Apache Spark (2024)
 - Basketball player: Apart of a basketball league, One of the captains
 - Book-club member: Bi-Weekly, meeting discussing books that we have read
