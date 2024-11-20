@@ -1,0 +1,1500 @@
+2024.09.18 14:50:31 INFO  Started: Metals version 1.3.5 in folders '/home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo' for client Visual Studio Code 1.93.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@3630e41]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@40eea002]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@3630e41]
+2024.09.18 14:50:31 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.09.18 14:50:32 INFO  Attempting to connect to the build server...
+2024.09.18 14:50:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/.metals/bsp.trace.json or /home/michael/.cache/metals/bsp.trace.json
+2024.09.18 14:50:32 INFO  time: Connected to build server in 0.32s
+2024.09.18 14:50:32 INFO  Connected to Build server: Bloop v1.6.0
+2024.09.18 14:50:33 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.18 14:50:33 INFO  time: Imported build in 0.14s
+2024.09.18 14:50:34 INFO  running doctor check
+2024.09.18 14:50:34 INFO  java targets: 
+2024.09.18 14:50:35 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/jre-openjdk/src.zip, /usr/lib/jvm/jre-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.09.18 14:50:35 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/jre-openjdk/src.zip, /usr/lib/jvm/jre-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.09.18 14:50:35 INFO  time: indexed workspace in 1.66s
+2024.09.18 14:50:35 WARN  no build target for: /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala
+2024.09.18 14:50:35 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.18 14:50:35 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.09.18 14:50:38 INFO  time: code lens generation in 2.2s
+2024.09.18 14:50:38 INFO  time: code lens generation in 1.61s
+2024.09.18 14:50:48 INFO  Shutting down server
+2024.09.18 14:50:48 INFO  shutting down Metals
+2024.09.18 14:50:48 INFO  Shut down connection with build server.
+2024.09.18 14:50:48 INFO  Exiting server
+2024.10.17 11:16:57 INFO  Started: Metals version 1.3.5 in folders '/home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo' for client Visual Studio Code 1.94.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@6fcc8381]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@39c5cfd8]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6fcc8381]
+2024.10.17 11:16:58 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.17 11:17:00 INFO  Attempting to connect to the build server...
+2024.10.17 11:17:00 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Oct 17, 2024 11:17:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Oct 17, 2024 11:17:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Oct 17, 2024 11:17:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Oct 17, 2024 11:17:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.10.17 11:17:01 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.17 11:17:06 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/Combinators.sc. Using presentation compiler with project's scala-library version: 3.3.3
+Oct 17, 2024 11:17:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+2024.10.17 11:17:06 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/Combinators.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.17 11:17:06 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.17 11:17:06 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Oct 17, 2024 11:17:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+2024.10.17 11:17:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/.metals/bsp.trace.json or /home/michael/.cache/metals/bsp.trace.json
+2024.10.17 11:17:10 INFO  time: Connected to build server in 10s
+2024.10.17 11:17:10 INFO  Connected to Build server: Bloop v1.6.0
+2024.10.17 11:17:10 INFO  time: Imported build in 0.51s
+2024.10.17 11:17:10 INFO  running doctor check
+2024.10.17 11:17:10 INFO  java targets: 
+2024.10.17 11:17:17 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/jre-openjdk/src.zip, /usr/lib/jvm/jre-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.10.17 11:17:17 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/jre-openjdk/src.zip, /usr/lib/jvm/jre-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.10.17 11:17:17 INFO  time: indexed workspace in 6.54s
+2024.10.17 11:17:17 WARN  no build target for: /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala
+2024.10.17 11:17:22 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.17 11:17:22 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.17 11:17:24 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/Combinators.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.17 11:17:24 INFO  time: code lens generation in 1.83s
+2024.10.17 11:17:24 INFO  time: code lens generation in 2.39s
+2024.10.17 11:17:24 INFO  time: code lens generation in 2.38s
+2024.10.17 11:17:24 INFO  time: code lens generation in 2.4s
+2024.10.17 11:17:24 INFO  time: code lens generation in 2.39s
+2024.10.17 11:17:24 INFO  time: code lens generation in 2.39s
+2024.10.17 11:17:24 INFO  time: code lens generation in 2.38s
+Oct 18, 2024 1:36:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.10.18 13:45:36 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 13:45:37 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 13:47:39 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 13:48:32 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 13:48:34 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 13:48:38 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 13:52:11 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 13:52:13 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 13:57:05 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 13:59:09 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 14:07:40 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 14:07:41 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 14:07:54 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 14:07:54 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 14:07:55 WARN  no build target for: /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala
+2024.10.18 14:07:55 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 14:07:55 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 14:08:43 INFO  Shutting down server
+2024.10.18 14:08:43 INFO  shutting down Metals
+2024.10.18 14:08:43 INFO  Shut down connection with build server.
+2024.10.18 14:08:43 INFO  Exiting server
+2024.10.18 14:08:49 INFO  Started: Metals version 1.3.5 in folders '/home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo' for client Visual Studio Code 1.94.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@7fba4899]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@35278632]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7fba4899]
+2024.10.18 14:08:50 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.10.18 14:08:51 INFO  Attempting to connect to the build server...
+2024.10.18 14:08:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/.metals/bsp.trace.json or /home/michael/.cache/metals/bsp.trace.json
+2024.10.18 14:08:51 INFO  time: Connected to build server in 0.48s
+2024.10.18 14:08:51 INFO  Connected to Build server: Bloop v1.6.0
+2024.10.18 14:08:51 INFO  time: Imported build in 0.25s
+2024.10.18 14:08:51 INFO  running doctor check
+2024.10.18 14:08:51 INFO  java targets: 
+2024.10.18 14:08:52 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Oct 18, 2024 2:08:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Oct 18, 2024 2:08:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2024.10.18 14:08:55 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/jre-openjdk/src.zip, /usr/lib/jvm/jre-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.10.18 14:08:55 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/jre-openjdk/src.zip, /usr/lib/jvm/jre-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.10.18 14:08:55 INFO  time: indexed workspace in 3.69s
+2024.10.18 14:08:55 WARN  no build target for: /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala
+2024.10.18 14:08:57 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 14:08:59 INFO  time: code lens generation in 1.86s
+2024.10.18 14:09:01 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 15:19:50 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/Combinators.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 15:19:50 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/Combinators.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 15:22:56 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 15:22:58 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 15:23:03 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 15:23:03 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 15:23:04 WARN  no build target for: /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala
+2024.10.18 15:23:04 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 15:23:05 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 15:23:05 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 15:23:06 WARN  no build target for: /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala
+2024.10.18 15:23:06 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 15:24:07 INFO  running '/usr/lib/jvm/java-21-openjdk-amd64/bin/java -Dfile.encoding=UTF-8 -Dmaven.multiModuleProjectDirectory=/home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/practice -Dmaven.home=/tmp/metals8993626708948547842 -cp /tmp/metals8993626708948547842/maven-wrapper.jar org.apache.maven.wrapper.MavenWrapperMain generate-sources ch.epfl.scala:bloop-maven-plugin:2.0.0:bloopInstall -DdownloadSources=true'
+2024.10.18 15:24:08 INFO  [INFO] Scanning for projects...
+2024.10.18 15:24:08 INFO  [WARNING] 
+2024.10.18 15:24:08 INFO  [WARNING] Some problems were encountered while building the effective model for ca.jrvs.apps:practice:jar:1.0-SNAPSHOT
+2024.10.18 15:24:08 INFO  [WARNING] 'dependencies.dependency.version' for org.junit.jupiter:junit-jupiter:jar is either LATEST or RELEASE (both of them are being deprecated) @ line 38, column 22
+2024.10.18 15:24:08 INFO  [WARNING] 
+2024.10.18 15:24:08 INFO  [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+2024.10.18 15:24:08 INFO  [WARNING] 
+2024.10.18 15:24:08 INFO  [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+2024.10.18 15:24:08 INFO  [WARNING] 
+2024.10.18 15:24:08 INFO  [INFO] 
+2024.10.18 15:24:08 INFO  [INFO] -----------------------< ca.jrvs.apps:practice >------------------------
+2024.10.18 15:24:08 INFO  [INFO] Building practice 1.0-SNAPSHOT
+2024.10.18 15:24:08 INFO  [INFO] --------------------------------[ jar ]---------------------------------
+2024.10.18 15:24:08 INFO  [INFO] 
+2024.10.18 15:24:08 INFO  [INFO] --- bloop-maven-plugin:2.0.0:bloopInstall (default-cli) @ practice ---
+2024.10.18 15:24:08 INFO  [INFO] Using empty launcher: no run setup for practice.
+2024.10.18 15:24:08 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies
+2024.10.18 15:24:08 INFO  [ERROR] org.scala-lang:scala([0-9]?)-library is missing from project dependencies
+2024.10.18 15:24:08 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter:jar:RELEASE:test (sources = false)
+2024.10.18 15:24:08 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter:jar:RELEASE:test (sources = false)
+2024.10.18 15:24:08 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter:jar:RELEASE:test (sources = true)
+2024.10.18 15:24:09 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.11.2/junit-jupiter-5.11.2-sources.jar
+2024.10.18 15:24:09 INFO  Progress (1): 2.8/6.1 kB
+2024.10.18 15:24:09 INFO  Progress (1): 5.5/6.1 kB
+2024.10.18 15:24:09 INFO  Progress (1): 6.1 kB    
+2024.10.18 15:24:09 INFO                      
+2024.10.18 15:24:09 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter/5.11.2/junit-jupiter-5.11.2-sources.jar (6.1 kB at 16 kB/s)
+2024.10.18 15:24:09 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter:jar:RELEASE:test (sources = true)
+2024.10.18 15:24:09 INFO  [INFO] Resolving artifact: org.junit.platform:junit-platform-engine:jar:1.11.2:test (sources = false)
+2024.10.18 15:24:09 INFO  [INFO] SUCCESS: org.junit.platform:junit-platform-engine:jar:1.11.2:test (sources = false)
+2024.10.18 15:24:09 INFO  [INFO] Resolving artifact: org.junit.platform:junit-platform-engine:jar:1.11.2:test (sources = true)
+2024.10.18 15:24:09 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.2/junit-platform-engine-1.11.2-sources.jar
+2024.10.18 15:24:09 INFO  Progress (1): 2.8/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 5.5/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 8.3/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 11/154 kB 
+2024.10.18 15:24:09 INFO  Progress (1): 14/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 16/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 20/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 25/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 29/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 33/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 37/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 41/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 45/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 49/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 53/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 57/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 61/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 66/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 70/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 74/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 78/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 82/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 86/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 90/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 94/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 98/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 102/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 106/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 111/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 115/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 119/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 123/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 127/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 131/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 133/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 137/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 141/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 145/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 150/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 154/154 kB
+2024.10.18 15:24:09 INFO  Progress (1): 154 kB    
+2024.10.18 15:24:09 INFO                      
+2024.10.18 15:24:09 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-engine/1.11.2/junit-platform-engine-1.11.2-sources.jar (154 kB at 1.4 MB/s)
+2024.10.18 15:24:09 INFO  [INFO] SUCCESS: org.junit.platform:junit-platform-engine:jar:1.11.2:test (sources = true)
+2024.10.18 15:24:09 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.1:compile (sources = false)
+2024.10.18 15:24:09 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.1:compile (sources = false)
+2024.10.18 15:24:09 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.1:compile (sources = true)
+2024.10.18 15:24:09 INFO  Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar
+2024.10.18 15:24:09 INFO  Progress (1): 8.2/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 16/998 kB 
+2024.10.18 15:24:09 INFO  Progress (1): 25/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 33/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 41/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 49/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 57/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 66/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 74/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 82/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 90/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 98/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 106/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 115/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 123/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 131/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 139/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 147/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 156/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 164/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 172/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 180/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 188/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 197/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 205/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 213/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 221/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 229/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 238/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 246/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 254/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 262/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 270/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 279/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 287/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 295/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 303/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 311/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 319/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 328/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 336/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 344/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 352/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 360/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 369/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 377/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 385/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 393/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 401/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 410/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 418/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 426/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 434/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 442/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 451/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 459/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 467/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 475/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 483/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 492/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 500/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 508/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 516/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 524/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 532/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 541/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 549/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 557/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 565/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 573/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 582/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 590/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 598/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 606/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 614/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 623/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 631/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 639/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 647/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 655/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 664/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 672/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 680/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 688/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 696/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 705/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 713/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 721/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 729/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 737/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 745/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 754/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 762/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 770/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 778/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 786/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 795/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 803/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 811/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 819/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 827/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 836/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 844/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 852/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 860/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 868/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 877/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 885/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 893/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 901/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 909/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 918/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 926/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 934/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 942/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 950/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 958/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 967/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 975/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 983/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 991/998 kB
+2024.10.18 15:24:09 INFO  Progress (1): 998 kB    
+2024.10.18 15:24:09 INFO                      
+2024.10.18 15:24:09 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar (998 kB at 5.9 MB/s)
+2024.10.18 15:24:09 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.1:compile (sources = true)
+2024.10.18 15:24:09 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)
+2024.10.18 15:24:09 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)
+2024.10.18 15:24:09 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)
+2024.10.18 15:24:09 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar
+2024.10.18 15:24:09 INFO  Progress (1): 4.1/33 kB
+2024.10.18 15:24:09 INFO  Progress (1): 8.2/33 kB
+2024.10.18 15:24:09 INFO  Progress (1): 12/33 kB 
+2024.10.18 15:24:09 INFO  Progress (1): 16/33 kB
+2024.10.18 15:24:09 INFO  Progress (1): 20/33 kB
+2024.10.18 15:24:09 INFO  Progress (1): 25/33 kB
+2024.10.18 15:24:09 INFO  Progress (1): 29/33 kB
+2024.10.18 15:24:09 INFO  Progress (1): 33 kB   
+2024.10.18 15:24:09 INFO                     
+2024.10.18 15:24:09 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar (33 kB at 666 kB/s)
+2024.10.18 15:24:09 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)
+2024.10.18 15:24:09 INFO  [INFO] Resolving artifact: org.junit.platform:junit-platform-commons:jar:1.11.2:test (sources = false)
+2024.10.18 15:24:09 INFO  [INFO] SUCCESS: org.junit.platform:junit-platform-commons:jar:1.11.2:test (sources = false)
+2024.10.18 15:24:09 INFO  [INFO] Resolving artifact: org.junit.platform:junit-platform-commons:jar:1.11.2:test (sources = true)
+2024.10.18 15:24:09 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.2/junit-platform-commons-1.11.2-sources.jar
+2024.10.18 15:24:09 INFO  Progress (1): 4.1/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 8.2/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 12/96 kB 
+2024.10.18 15:24:09 INFO  Progress (1): 16/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 20/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 25/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 29/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 33/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 37/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 41/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 45/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 49/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 53/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 57/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 61/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 66/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 70/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 74/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 78/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 82/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 86/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 90/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 94/96 kB
+2024.10.18 15:24:09 INFO  Progress (1): 96 kB   
+2024.10.18 15:24:09 INFO                     
+2024.10.18 15:24:09 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.11.2/junit-platform-commons-1.11.2-sources.jar (96 kB at 1.7 MB/s)
+2024.10.18 15:24:09 INFO  [INFO] SUCCESS: org.junit.platform:junit-platform-commons:jar:1.11.2:test (sources = true)
+2024.10.18 15:24:09 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-params:jar:5.11.2:test (sources = false)
+2024.10.18 15:24:09 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-params:jar:5.11.2:test (sources = false)
+2024.10.18 15:24:09 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-params:jar:5.11.2:test (sources = true)
+2024.10.18 15:24:09 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.2/junit-jupiter-params-5.11.2-sources.jar
+2024.10.18 15:24:09 INFO  Progress (1): 4.1/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 8.2/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 12/87 kB 
+2024.10.18 15:24:09 INFO  Progress (1): 16/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 20/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 25/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 29/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 33/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 37/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 41/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 45/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 49/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 53/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 57/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 61/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 66/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 70/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 74/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 78/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 82/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 86/87 kB
+2024.10.18 15:24:09 INFO  Progress (1): 87 kB   
+2024.10.18 15:24:09 INFO                     
+2024.10.18 15:24:09 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-params/5.11.2/junit-jupiter-params-5.11.2-sources.jar (87 kB at 1.4 MB/s)
+2024.10.18 15:24:09 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-params:jar:5.11.2:test (sources = true)
+2024.10.18 15:24:09 INFO  [INFO] Resolving artifact: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = false)
+2024.10.18 15:24:09 INFO  [INFO] SUCCESS: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = false)
+2024.10.18 15:24:09 INFO  [INFO] Resolving artifact: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = true)
+2024.10.18 15:24:09 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2-sources.jar
+2024.10.18 15:24:09 INFO  Progress (1): 4.1/6.6 kB
+2024.10.18 15:24:09 INFO  Progress (1): 6.6 kB    
+2024.10.18 15:24:09 INFO                      
+2024.10.18 15:24:09 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2-sources.jar (6.6 kB at 133 kB/s)
+2024.10.18 15:24:09 INFO  [INFO] SUCCESS: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = true)
+2024.10.18 15:24:09 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy:jar:1.9.3:test (sources = false)
+2024.10.18 15:24:09 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy:jar:1.9.3:test (sources = false)
+2024.10.18 15:24:09 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy:jar:1.9.3:test (sources = true)
+2024.10.18 15:24:09 INFO  Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3-sources.jar
+2024.10.18 15:24:09 INFO  Progress (1): 0/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.1/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.1/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.1/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.1/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.1/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.1/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.1/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.1/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.1/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.1/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.1/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.1/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.2/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.2/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.2/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.2/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.2/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.2/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.2/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.2/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.2/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.2/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.2/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.2/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.3/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.3/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.3/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.3/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.3/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.3/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.3/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.3/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.3/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.3/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.3/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.3/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.4/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.4/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.4/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.4/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.4/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.4/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.4/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.4/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.4/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.4/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.4/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.4/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.5/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.5/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.5/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.5/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.5/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.5/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.5/1.1 MB
+2024.10.18 15:24:09 INFO  Progress (1): 0.5/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.5/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.5/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.5/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.5/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.5/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.6/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.6/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.6/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.6/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.6/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.6/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.6/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.6/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.6/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.6/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.6/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.6/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.7/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.7/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.7/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.7/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.7/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.7/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.7/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.7/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.7/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.7/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.7/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.7/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.8/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.8/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.8/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.8/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.8/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.8/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.8/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.8/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.8/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.8/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.8/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.8/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.9/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.9/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.9/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.9/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.9/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.9/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.9/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.9/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.9/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.9/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.9/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 0.9/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.0/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.0/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.0/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.0/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.0/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.0/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.0/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.0/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.0/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.0/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.0/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.0/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.0/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.1/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.1/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.1/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.1/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.1/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.1/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.1/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.1/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.1/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.1/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.1/1.1 MB
+2024.10.18 15:24:10 INFO  Progress (1): 1.1 MB    
+2024.10.18 15:24:10 INFO                      
+2024.10.18 15:24:10 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3-sources.jar (1.1 MB at 5.4 MB/s)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy:jar:1.9.3:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: junit:junit:jar:4.12:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: junit:junit:jar:4.12:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: junit:junit:jar:4.12:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: junit:junit:jar:4.12:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.opentest4j:opentest4j:jar:1.3.0:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.opentest4j:opentest4j:jar:1.3.0:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.opentest4j:opentest4j:jar:1.3.0:test (sources = true)
+2024.10.18 15:24:10 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0-sources.jar
+2024.10.18 15:24:10 INFO  Progress (1): 4.1/10 kB
+2024.10.18 15:24:10 INFO  Progress (1): 8.2/10 kB
+2024.10.18 15:24:10 INFO  Progress (1): 10 kB    
+2024.10.18 15:24:10 INFO                     
+2024.10.18 15:24:10 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0-sources.jar (10 kB at 219 kB/s)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.opentest4j:opentest4j:jar:1.3.0:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-engine:jar:5.11.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-engine:jar:5.11.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-engine:jar:5.11.2:test (sources = true)
+2024.10.18 15:24:10 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.2/junit-jupiter-engine-5.11.2-sources.jar
+2024.10.18 15:24:10 INFO  Progress (1): 4.1/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 8.2/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 12/134 kB 
+2024.10.18 15:24:10 INFO  Progress (1): 16/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 20/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 25/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 29/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 33/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 37/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 41/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 45/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 49/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 53/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 57/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 61/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 66/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 70/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 74/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 78/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 82/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 86/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 90/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 94/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 98/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 102/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 106/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 111/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 115/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 119/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 123/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 127/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 131/134 kB
+2024.10.18 15:24:10 INFO  Progress (1): 134 kB    
+2024.10.18 15:24:10 INFO                      
+2024.10.18 15:24:10 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.11.2/junit-jupiter-engine-5.11.2-sources.jar (134 kB at 2.2 MB/s)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-engine:jar:5.11.2:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy-agent:jar:1.9.3:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy-agent:jar:1.9.3:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy-agent:jar:1.9.3:test (sources = true)
+2024.10.18 15:24:10 INFO  Downloading from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3-sources.jar
+2024.10.18 15:24:10 INFO  Progress (1): 4.1/21 kB
+2024.10.18 15:24:10 INFO  Progress (1): 8.2/21 kB
+2024.10.18 15:24:10 INFO  Progress (1): 12/21 kB 
+2024.10.18 15:24:10 INFO  Progress (1): 16/21 kB
+2024.10.18 15:24:10 INFO  Progress (1): 20/21 kB
+2024.10.18 15:24:10 INFO  Progress (1): 21 kB   
+2024.10.18 15:24:10 INFO                     
+2024.10.18 15:24:10 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3-sources.jar (21 kB at 406 kB/s)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy-agent:jar:1.9.3:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.objenesis:objenesis:jar:2.6:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.objenesis:objenesis:jar:2.6:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.objenesis:objenesis:jar:2.6:test (sources = true)
+2024.10.18 15:24:10 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6-sources.jar
+2024.10.18 15:24:10 INFO  Progress (1): 4.1/57 kB
+2024.10.18 15:24:10 INFO  Progress (1): 8.2/57 kB
+2024.10.18 15:24:10 INFO  Progress (1): 12/57 kB 
+2024.10.18 15:24:10 INFO  Progress (1): 16/57 kB
+2024.10.18 15:24:10 INFO  Progress (1): 20/57 kB
+2024.10.18 15:24:10 INFO  Progress (1): 25/57 kB
+2024.10.18 15:24:10 INFO  Progress (1): 29/57 kB
+2024.10.18 15:24:10 INFO  Progress (1): 33/57 kB
+2024.10.18 15:24:10 INFO  Progress (1): 37/57 kB
+2024.10.18 15:24:10 INFO  Progress (1): 41/57 kB
+2024.10.18 15:24:10 INFO  Progress (1): 45/57 kB
+2024.10.18 15:24:10 INFO  Progress (1): 49/57 kB
+2024.10.18 15:24:10 INFO  Progress (1): 53/57 kB
+2024.10.18 15:24:10 INFO  Progress (1): 57 kB   
+2024.10.18 15:24:10 INFO                     
+2024.10.18 15:24:10 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/2.6/objenesis-2.6-sources.jar (57 kB at 1.2 MB/s)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.objenesis:objenesis:jar:2.6:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.mockito:mockito-core:jar:2.23.4:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.mockito:mockito-core:jar:2.23.4:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.mockito:mockito-core:jar:2.23.4:test (sources = true)
+2024.10.18 15:24:10 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4-sources.jar
+2024.10.18 15:24:10 INFO  Progress (1): 4.1/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 8.2/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 12/469 kB 
+2024.10.18 15:24:10 INFO  Progress (1): 16/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 20/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 25/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 29/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 33/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 37/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 41/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 45/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 49/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 53/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 57/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 61/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 66/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 70/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 74/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 78/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 82/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 86/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 90/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 94/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 98/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 102/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 106/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 111/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 115/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 119/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 123/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 127/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 131/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 135/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 139/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 143/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 147/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 152/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 156/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 160/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 164/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 168/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 172/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 176/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 180/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 184/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 188/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 193/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 197/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 201/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 205/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 209/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 213/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 217/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 221/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 225/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 229/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 233/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 238/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 242/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 246/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 250/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 254/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 258/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 262/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 266/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 270/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 274/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 279/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 283/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 287/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 291/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 295/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 299/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 303/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 307/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 311/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 315/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 319/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 324/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 328/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 332/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 336/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 340/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 344/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 348/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 352/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 356/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 360/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 365/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 369/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 373/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 377/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 381/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 385/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 389/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 393/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 397/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 401/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 406/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 410/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 414/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 418/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 422/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 426/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 430/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 434/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 438/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 442/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 446/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 451/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 455/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 459/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 463/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 467/469 kB
+2024.10.18 15:24:10 INFO  Progress (1): 469 kB    
+2024.10.18 15:24:10 INFO                      
+2024.10.18 15:24:10 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4-sources.jar (469 kB at 4.0 MB/s)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.mockito:mockito-core:jar:2.23.4:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-annotations:jar:2.9.10:compile (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-annotations:jar:2.9.10:compile (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-annotations:jar:2.9.10:compile (sources = true)
+2024.10.18 15:24:10 INFO  Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10-sources.jar
+2024.10.18 15:24:10 INFO  Progress (1): 4.1/68 kB
+2024.10.18 15:24:10 INFO  Progress (1): 8.2/68 kB
+2024.10.18 15:24:10 INFO  Progress (1): 12/68 kB 
+2024.10.18 15:24:10 INFO  Progress (1): 16/68 kB
+2024.10.18 15:24:10 INFO  Progress (1): 20/68 kB
+2024.10.18 15:24:10 INFO  Progress (1): 25/68 kB
+2024.10.18 15:24:10 INFO  Progress (1): 29/68 kB
+2024.10.18 15:24:10 INFO  Progress (1): 33/68 kB
+2024.10.18 15:24:10 INFO  Progress (1): 37/68 kB
+2024.10.18 15:24:10 INFO  Progress (1): 41/68 kB
+2024.10.18 15:24:10 INFO  Progress (1): 45/68 kB
+2024.10.18 15:24:10 INFO  Progress (1): 49/68 kB
+2024.10.18 15:24:10 INFO  Progress (1): 53/68 kB
+2024.10.18 15:24:10 INFO  Progress (1): 57/68 kB
+2024.10.18 15:24:10 INFO  Progress (1): 61/68 kB
+2024.10.18 15:24:10 INFO  Progress (1): 66/68 kB
+2024.10.18 15:24:10 INFO  Progress (1): 68 kB   
+2024.10.18 15:24:10 INFO                     
+2024.10.18 15:24:10 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10-sources.jar (68 kB at 1.3 MB/s)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-annotations:jar:2.9.10:compile (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-core:jar:2.9.10:compile (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-core:jar:2.9.10:compile (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-core:jar:2.9.10:compile (sources = true)
+2024.10.18 15:24:10 INFO  Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10-sources.jar
+2024.10.18 15:24:10 INFO  Progress (1): 4.1/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 8.2/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 12/337 kB 
+2024.10.18 15:24:10 INFO  Progress (1): 16/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 20/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 25/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 29/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 33/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 37/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 41/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 45/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 49/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 53/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 57/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 61/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 66/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 70/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 74/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 78/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 82/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 86/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 90/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 94/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 98/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 102/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 106/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 111/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 115/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 119/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 123/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 127/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 131/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 135/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 139/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 143/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 147/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 152/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 156/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 160/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 164/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 168/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 172/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 176/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 180/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 184/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 188/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 193/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 197/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 201/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 205/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 209/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 213/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 217/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 221/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 225/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 229/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 233/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 238/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 242/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 246/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 250/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 254/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 258/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 262/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 266/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 270/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 274/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 279/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 283/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 287/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 291/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 295/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 299/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 303/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 307/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 311/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 315/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 319/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 324/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 328/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 332/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 336/337 kB
+2024.10.18 15:24:10 INFO  Progress (1): 337 kB    
+2024.10.18 15:24:10 INFO                      
+2024.10.18 15:24:10 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10-sources.jar (337 kB at 3.9 MB/s)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-core:jar:2.9.10:compile (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-api:jar:5.11.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-api:jar:5.11.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-api:jar:5.11.2:test (sources = true)
+2024.10.18 15:24:10 INFO  Downloading from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.2/junit-jupiter-api-5.11.2-sources.jar
+2024.10.18 15:24:10 INFO  Progress (1): 4.1/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 8.2/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 12/215 kB 
+2024.10.18 15:24:10 INFO  Progress (1): 16/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 20/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 25/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 29/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 33/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 37/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 41/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 45/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 49/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 53/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 57/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 61/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 64/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 68/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 72/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 76/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 80/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 84/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 88/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 92/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 96/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 101/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 105/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 109/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 113/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 117/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 121/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 125/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 129/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 133/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 137/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 142/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 146/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 150/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 154/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 158/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 162/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 166/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 170/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 174/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 178/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 183/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 187/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 191/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 195/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 199/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 203/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 207/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 211/215 kB
+2024.10.18 15:24:10 INFO  Progress (1): 215 kB    
+2024.10.18 15:24:10 INFO                      
+2024.10.18 15:24:10 INFO  Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/jupiter/junit-jupiter-api/5.11.2/junit-jupiter-api-5.11.2-sources.jar (215 kB at 2.8 MB/s)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-api:jar:5.11.2:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Generated .bloop/practice.json
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter:jar:RELEASE:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter:jar:RELEASE:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter:jar:RELEASE:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter:jar:RELEASE:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.platform:junit-platform-engine:jar:1.11.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.platform:junit-platform-engine:jar:1.11.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.platform:junit-platform-engine:jar:1.11.2:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.platform:junit-platform-engine:jar:1.11.2:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.1:compile (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.1:compile (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.1:compile (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-databind:jar:2.9.10.1:compile (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.hamcrest:hamcrest-core:jar:1.3:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.platform:junit-platform-commons:jar:1.11.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.platform:junit-platform-commons:jar:1.11.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.platform:junit-platform-commons:jar:1.11.2:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.platform:junit-platform-commons:jar:1.11.2:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-params:jar:5.11.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-params:jar:5.11.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-params:jar:5.11.2:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-params:jar:5.11.2:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.apiguardian:apiguardian-api:jar:1.1.2:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy:jar:1.9.3:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy:jar:1.9.3:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy:jar:1.9.3:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy:jar:1.9.3:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: junit:junit:jar:4.12:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: junit:junit:jar:4.12:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: junit:junit:jar:4.12:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: junit:junit:jar:4.12:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.opentest4j:opentest4j:jar:1.3.0:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.opentest4j:opentest4j:jar:1.3.0:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.opentest4j:opentest4j:jar:1.3.0:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.opentest4j:opentest4j:jar:1.3.0:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-engine:jar:5.11.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-engine:jar:5.11.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-engine:jar:5.11.2:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-engine:jar:5.11.2:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy-agent:jar:1.9.3:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy-agent:jar:1.9.3:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: net.bytebuddy:byte-buddy-agent:jar:1.9.3:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: net.bytebuddy:byte-buddy-agent:jar:1.9.3:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.objenesis:objenesis:jar:2.6:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.objenesis:objenesis:jar:2.6:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.objenesis:objenesis:jar:2.6:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.objenesis:objenesis:jar:2.6:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.mockito:mockito-core:jar:2.23.4:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.mockito:mockito-core:jar:2.23.4:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.mockito:mockito-core:jar:2.23.4:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.mockito:mockito-core:jar:2.23.4:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-annotations:jar:2.9.10:compile (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-annotations:jar:2.9.10:compile (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-annotations:jar:2.9.10:compile (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-annotations:jar:2.9.10:compile (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-core:jar:2.9.10:compile (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-core:jar:2.9.10:compile (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: com.fasterxml.jackson.core:jackson-core:jar:2.9.10:compile (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: com.fasterxml.jackson.core:jackson-core:jar:2.9.10:compile (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-api:jar:5.11.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-api:jar:5.11.2:test (sources = false)
+2024.10.18 15:24:10 INFO  [INFO] Resolving artifact: org.junit.jupiter:junit-jupiter-api:jar:5.11.2:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] SUCCESS: org.junit.jupiter:junit-jupiter-api:jar:5.11.2:test (sources = true)
+2024.10.18 15:24:10 INFO  [INFO] Generated .bloop/practice-test.json
+2024.10.18 15:24:10 INFO  [INFO] ------------------------------------------------------------------------
+2024.10.18 15:24:10 INFO  [INFO] BUILD SUCCESS
+2024.10.18 15:24:10 INFO  [INFO] ------------------------------------------------------------------------
+2024.10.18 15:24:10 INFO  [INFO] Total time:  2.817 s
+2024.10.18 15:24:10 INFO  [INFO] Finished at: 2024-10-18T15:24:11-04:00
+2024.10.18 15:24:10 INFO  [INFO] ------------------------------------------------------------------------
+2024.10.18 15:24:11 INFO  time: ran 'mvn bloopInstall' in 3.85s
+2024.10.18 15:24:11 INFO  Disconnecting from Bloop session...
+2024.10.18 15:24:11 INFO  Shut down connection with build server.
+2024.10.18 15:24:11 INFO  Attempting to connect to the build server...
+2024.10.18 15:24:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/.metals/bsp.trace.json or /home/michael/.cache/metals/bsp.trace.json
+2024.10.18 15:24:11 INFO  time: Connected to build server in 0.23s
+2024.10.18 15:24:11 INFO  Connected to Build server: Bloop v1.6.0
+2024.10.18 15:24:11 INFO  running doctor check
+2024.10.18 15:24:11 INFO  java targets: practice-test, practice
+2024.10.18 15:24:11 ERROR Running process '/usr/lib/jvm/jre-openjdk/bin/java -version' failed
+java.io.IOException: Cannot run program "/usr/lib/jvm/jre-openjdk/bin/java" (in directory "/usr/lib/jvm/jre-openjdk"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:169)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:217)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:206)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:732)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:725)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:712)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:779)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:340)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:331)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1610)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:1368)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectToNewBuildServer$4(ProjectMetalsLspService.scala:992)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:254)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:167)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:167)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:295)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:225)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:169)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:217)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:206)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:732)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:725)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:712)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:779)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:340)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:331)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1610)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:1368)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectToNewBuildServer$4(ProjectMetalsLspService.scala:992)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:254)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:167)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:167)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.10.18 15:24:11 ERROR Running process '/usr/lib/jvm/jre-openjdk/bin/java -version' failed
+java.io.IOException: Cannot run program "/usr/lib/jvm/jre-openjdk/bin/java" (in directory "/usr/lib/jvm/jre-openjdk"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:169)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:217)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:206)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:732)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:725)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:712)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:779)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:340)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:331)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1610)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:1368)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectToNewBuildServer$4(ProjectMetalsLspService.scala:992)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:254)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:167)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:167)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:295)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:225)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:169)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:217)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:206)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:732)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:725)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:712)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:779)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:340)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:331)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1610)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:1368)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectToNewBuildServer$4(ProjectMetalsLspService.scala:992)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:254)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:167)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:167)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.10.18 15:24:13 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/jre-openjdk/src.zip, /usr/lib/jvm/jre-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.10.18 15:24:15 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/jre-openjdk/src.zip, /usr/lib/jvm/jre-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.10.18 15:24:15 INFO  time: indexed workspace in 3.55s
+2024.10.18 15:24:15 WARN  no build target for: /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/Combinators.sc
+2024.10.18 15:24:15 WARN  no build target for: /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala
+2024.10.18 15:24:15 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 15:24:15 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 15:32:54 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/Combinators.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 15:32:54 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/Combinators.sc. Using presentation compiler with project's scala-library version: 3.3.3
+2024.10.18 15:36:24 INFO  Shutting down server
+2024.10.18 15:36:24 INFO  shutting down Metals
+2024.10.18 15:36:24 INFO  Shut down connection with build server.
+2024.10.18 15:36:24 WARN  Error requesting Scala script import
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.10.18 15:36:24 INFO  Exiting server
+2024.11.19 15:51:46 INFO  Started: Metals version 1.4.1 in folders '/home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo' for client Visual Studio Code 1.95.3.
+2024.11.19 15:51:47 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.11.19 15:51:47 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/Combinators.sc. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.19 15:51:48 INFO  Attempting to connect to the build server...
+2024.11.19 15:51:48 INFO  No running Bloop server found, starting one.
+2024.11.19 15:51:48 ERROR Running process '/usr/lib/jvm/java-21-openjdk-amd64/bin/jps -l' failed
+java.io.IOException: Cannot run program "/usr/lib/jvm/java-21-openjdk-amd64/bin/jps" (in directory "/home/michael/snap/code/176/.local/share/scalacli/bloop"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:169)
+	at scala.meta.internal.metals.BloopServers.$anonfun$checkOldBloopRunning$1(BloopServers.scala:244)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.BloopServers.checkOldBloopRunning(BloopServers.scala:242)
+	at scala.meta.internal.metals.BloopServers.connect(BloopServers.scala:363)
+	at scala.meta.internal.metals.BloopServers.$anonfun$newServer$1(BloopServers.scala:103)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:600)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:668)
+	at scala.meta.internal.metals.BloopServers.newServer(BloopServers.scala:95)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:108)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:215)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$4(ConnectionProvider.scala:477)
+	at scala.meta.internal.metals.TimerProvider.withTimer(TimerProvider.scala:38)
+	at scala.meta.internal.metals.TimerProvider.timed(TimerProvider.scala:14)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$3(ConnectionProvider.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:295)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:225)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:169)
+	at scala.meta.internal.metals.BloopServers.$anonfun$checkOldBloopRunning$1(BloopServers.scala:244)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.BloopServers.checkOldBloopRunning(BloopServers.scala:242)
+	at scala.meta.internal.metals.BloopServers.connect(BloopServers.scala:363)
+	at scala.meta.internal.metals.BloopServers.$anonfun$newServer$1(BloopServers.scala:103)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:600)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:668)
+	at scala.meta.internal.metals.BloopServers.newServer(BloopServers.scala:95)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:108)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:215)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$4(ConnectionProvider.scala:477)
+	at scala.meta.internal.metals.TimerProvider.withTimer(TimerProvider.scala:38)
+	at scala.meta.internal.metals.TimerProvider.timed(TimerProvider.scala:14)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$3(ConnectionProvider.scala:477)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.11.19 15:51:53 INFO  Starting compilation server
+Nov 19, 2024 3:51:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Nov 19, 2024 3:51:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.11.19 15:51:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/.metals/bsp.trace.json or /home/michael/.cache/metals/bsp.trace.json
+2024.11.19 15:51:56 INFO  time: Connected to build server in 7.66s
+2024.11.19 15:51:56 INFO  Connected to Build server: Bloop v2.0.5
+2024.11.19 15:51:56 INFO  time: Imported build in 0.11s
+2024.11.19 15:51:56 INFO  running doctor check
+2024.11.19 15:51:56 INFO  java targets: practice-test, practice
+2024.11.19 15:51:56 ERROR Running process '/usr/lib/jvm/jre-openjdk/bin/java -version' failed
+java.io.IOException: Cannot run program "/usr/lib/jvm/jre-openjdk/bin/java" (in directory "/usr/lib/jvm/jre-openjdk"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:169)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:217)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:206)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:495)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:488)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:475)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:779)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:340)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:331)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1568)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:829)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:174)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$10(Indexer.scala:144)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:144)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:295)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:225)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:169)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:217)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:206)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:495)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:488)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:475)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:779)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:340)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:331)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1568)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:829)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:174)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$10(Indexer.scala:144)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:144)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.11.19 15:51:56 ERROR Running process '/usr/lib/jvm/jre-openjdk/bin/java -version' failed
+java.io.IOException: Cannot run program "/usr/lib/jvm/jre-openjdk/bin/java" (in directory "/usr/lib/jvm/jre-openjdk"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:169)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:217)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:206)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:495)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:488)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:475)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:779)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:340)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:331)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1568)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:829)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:174)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$10(Indexer.scala:144)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:144)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:295)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:225)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:169)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:217)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:208)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:206)
+	at scala.meta.internal.metals.JavaInfo$.$anonfun$getInfo$1(JdkInfo.scala:11)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JavaInfo$.getInfo(JdkInfo.scala:10)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$7(ProjectMetalsLspService.scala:495)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:488)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:475)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:779)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:82)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:340)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:331)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:294)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:113)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1568)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:829)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:174)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$10(Indexer.scala:144)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:144)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:57)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.11.19 15:51:58 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/jre-openjdk/src.zip, /usr/lib/jvm/jre-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.11.19 15:51:58 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/jre-openjdk/src.zip, /usr/lib/jvm/jre-openjdk/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.11.19 15:51:58 INFO  time: indexed workspace in 2.28s
+2024.11.19 15:51:58 WARN  no build target for: /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/Combinators.sc
+2024.11.19 15:51:58 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/Combinators.sc. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.19 15:52:00 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.11.19 15:54:58 INFO  no build target found for /home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/main/scala/ca/jrvs/App.scala. Using presentation compiler with project's scala-library version: 3.3.4

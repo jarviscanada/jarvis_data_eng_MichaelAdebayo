@@ -40,7 +40,9 @@
         "Skill Hat Career Accelerator Course (2022 - 2023)",
         "CompTIA IT Fundamentals (2022)",
         "Microsoft Azure Fundamentals: Cloud Computing (2023)",
-        "CIBC: Introduction to Cloud (2023)"
+        "CIBC: Introduction to Cloud (2023)",
+        " Academy Accreditation - Databricks Fundamentals (2024)",
+        "Databricks Certified Associate Developer for Apache Spark (2024)"
       ],
       "title": "Certificates"
     },
@@ -72,14 +74,16 @@
       "Docker",
       "Linux",
       "Bash",
-      "MySQL"
+      "MySQL",
+      "Databricks"
     ],
     "familiar": [
       "HTML",
       "CSS",
       "Rust",
       "C++",
-      "Springboot"
+      "Springboot",
+      "Microsoft Azure"
     ],
     "proficient": [
       "Java",

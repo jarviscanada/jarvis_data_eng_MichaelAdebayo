@@ -1,0 +1,197 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "scala-test",
+        "directory": "/home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark",
+        "workspaceDir": "/home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark",
+        "sources": [
+            
+        ],
+        "dependencies": [
+            "scala"
+        ],
+        "classpath": [
+            "/home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/target/test-classes",
+            "/home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/target/classes",
+            "/home/michael/.m2/repository/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar",
+            "/home/michael/.m2/repository/org/scalatest/scalatest_2.11/2.2.5/scalatest_2.11-2.2.5.jar",
+            "/home/michael/.m2/repository/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar",
+            "/home/michael/.m2/repository/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar",
+            "/home/michael/.m2/repository/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar"
+        ],
+        "out": "/home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/target",
+        "classesDir": "/home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/target/test-classes",
+        "resources": [
+            "/home/michael/IdeaProjects/jarvis_data_eng_MichaelAdebayo/spark/src/test/resources"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.11.6",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/michael/.m2/repository/org/scala-lang/scala-compiler/2.11.6/scala-compiler-2.11.6.jar",
+                "/home/michael/.m2/repository/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar",
+                "/home/michael/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.3/scala-parser-combinators_2.11-1.0.3.jar",
+                "/home/michael/.m2/repository/org/scala-lang/scala-reflect/2.11.6/scala-reflect-2.11.6.jar",
+                "/home/michael/.m2/repository/org/scala-lang/modules/scala-xml_2.11/1.0.3/scala-xml_2.11-1.0.3.jar",
+                "/home/michael/.m2/repository/jline/jline/2.12.1/jline-2.12.1.jar"
+            ],
+            "setup": {
+                "order": "java->scala",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                "-g",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-21-openjdk-amd64",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.11",
+                    "version": "2.2.5",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.11",
+                            "path": "/home/michael/.m2/repository/org/scalatest/scalatest_2.11/2.2.5/scalatest_2.11-2.2.5.jar"
+                        },
+                        {
+                            "name": "scalatest_2.11",
+                            "classifier": "sources",
+                            "path": "/home/michael/.m2/repository/org/scalatest/scalatest_2.11/2.2.5/scalatest_2.11-2.2.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.11",
+                    "version": "1.0.2",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.11",
+                            "path": "/home/michael/.m2/repository/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.11",
+                            "classifier": "sources",
+                            "path": "/home/michael/.m2/repository/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.11.6",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/michael/.m2/repository/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/michael/.m2/repository/org/scala-lang/scala-library/2.11.6/scala-library-2.11.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.11.2",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/michael/.m2/repository/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/michael/.m2/repository/org/scala-lang/scala-reflect/2.11.2/scala-reflect-2.11.2-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

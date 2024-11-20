@@ -7,9 +7,9 @@ I hold a Bachelor of Science Honors degree in Computer Science from Trent Univer
 
 **Proficient:** Java, Python, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** C#, Docker, Linux, Bash, MySQL
+**Competent:** C#, Docker, Linux, Bash, MySQL, Databricks
 
-**Familiar:** HTML, CSS, Rust, C++, Springboot
+**Familiar:** HTML, CSS, Rust, C++, Springboot, Microsoft Azure
 
 ## Jarvis Projects
 
@@ -19,15 +19,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_MichaelAde
 **Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MichaelAdebayo/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MichaelAdebayo/blob/main/linux_sql)]: Completed a project that aimed to create scripts capable of collecting hardware data and resource usage data. This enabled the Jarvis Linux Cluster Administration to manage resources within a cluster effectively. The project utilized the Linux command line interface, Bash scripts for data collection, and a PSQL database for storage. The project was containerized using Docker and hosted on Google Cloud Platform. A tool called REALVNC was used to view the virtual machine.
 
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MichaelAdebayo/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MichaelAdebayo/blob/main/core_java)]:
-
-**Grep App**: Developed an application mimicking the Linux grep command, allowing users to search for matching strings within files using regular expressions. The application recursively searches within a target directory for files that match the expression and returns the results. It can be run using a Docker image or locally using a JAR file.
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MichaelAdebayo/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MichaelAdebayo/blob/main/linux_sql)]: Completed a project that aimed to create scripts capable of collecting hardware data and resource usage data. This enabled the Jarvis Linux Cluster Administration to manage resources within a cluster effectively. The project utilized the Linux command line interface, Bash scripts for data collection, and a PSQL database for storage. The project was containerized using Docker and hosted on Google Cloud Platform. A tool called REALVNC was used to view the virtual machine.
-
-**Stock Quote App**: Completed a Stock Quote application that allows users to manage and track stock positions by interacting with a PostgreSQL database. The application retrieves real-time stock data using the Alpha Vantage API, with data parsing handled by JSON and HTTP requests managed via the OkHttp library. The project was implemented in Java, employing the DAO design pattern to separate business logic from data access. Testing was done using JUnit and Mockito as well as manual testing to ensure the application ran correctly. The application was containerized with Docker for easy deployment.
-
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MichaelAdebayo/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MichaelAdebayo/blob/main/core_java)]: Grep App: Developed an application mimicking the Linux grep command, allowing users to search for matching strings within files using regular expressions. The application recursively searches within a target directory for files that match the expression and returns the results. It can be run using a Docker image or locally using a JAR file.
-
+**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_MichaelAdebayo/tree/masterhttps://github.com/jarviscanada/jarvis_data_eng_MichaelAdebayo/blob/main/core_java)]: Core Java Apps:
+Grep App: Developed an application mimicking the Linux grep command, allowing users to search for matching strings within files using regular expressions. The application recursively searches within a target directory for files that match the expression and returns the results. It can be run using a Docker image or locally using a JAR file.
+Stock Quote App: Completed a Stock Quote application that allows users to manage and track stock positions by interacting with a PostgreSQL database. The application retrieves real-time stock data using the Alpha Vantage API, with data parsing handled by JSON and HTTP requests managed via the OkHttp library. The project was implemented in Java, employing the DAO design pattern to separate business logic from data access. Testing was done using JUnit and Mockito as well as manual testing to ensure the application ran correctly. The application was containerized with Docker for easy deployment.
 
 
 
