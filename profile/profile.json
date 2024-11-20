@@ -74,14 +74,16 @@
       "Docker",
       "Linux",
       "Bash",
-      "MySQL"
+      "MySQL",
+      "Databricks"
     ],
     "familiar": [
       "HTML",
       "CSS",
       "Rust",
       "C++",
-      "Springboot"
+      "Springboot",
+      "Microsoft Azure"
     ],
     "proficient": [
       "Java",
