@@ -18,12 +18,15 @@ skills:
     - Bash
     - MySQL
     - Databricks
+    - CompTIA IT Fundamentals
   familiar:
     - HTML
+    - Databricks - Apache Spark
     - CSS
     - Rust
     - C++
     - Springboot
+    - Cloud Computing
     - Microsoft Azure
 
 jarvis_projects:

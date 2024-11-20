@@ -75,14 +75,17 @@
       "Linux",
       "Bash",
       "MySQL",
-      "Databricks"
+      "Databricks",
+      "CompTIA IT Fundamentals"
     ],
     "familiar": [
       "HTML",
+      "Databricks - Apache Spark",
       "CSS",
       "Rust",
       "C++",
       "Springboot",
+      "Cloud Computing",
       "Microsoft Azure"
     ],
     "proficient": [
