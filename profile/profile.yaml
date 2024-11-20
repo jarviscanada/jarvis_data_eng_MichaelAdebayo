@@ -17,12 +17,14 @@ skills:
     - Linux
     - Bash
     - MySQL
+    - Databricks
   familiar:
     - HTML
     - CSS
     - Rust
     - C++
     - Springboot
+    - Microsoft Azure
 
 jarvis_projects:
   - name: "Cluster Monitor"
