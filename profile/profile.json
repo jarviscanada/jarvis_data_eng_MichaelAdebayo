@@ -76,9 +76,11 @@
       "Bash",
       "MySQL",
       "Databricks",
-      "CompTIA IT Fundamentals"
+      "CompTIA IT Fundamentals",
+      "PySpark"
     ],
     "familiar": [
+      "Kafka",
       "HTML",
       "Databricks - Apache Spark",
       "CSS",
