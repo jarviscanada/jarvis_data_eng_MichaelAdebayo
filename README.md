@@ -8,9 +8,6 @@ I hold a Bachelor of Science Honors degree in Computer Science from Trent Univer
 **Proficient:** Java, Python, RDBMS/SQL, Agile/Scrum, Git
 
 **Competent:** C#, Docker, Linux, Bash, MySQL, Databricks, CompTIA IT Fundamentals, PySpark
-**Competent:** C#, Docker, Linux, Bash, MySQL, Databricks, CompTIA IT Fundamentals
-
-**Familiar:** HTML, Databricks - Apache Spark, CSS, Rust, C++, Springboot, Cloud Computing, Microsoft Azure
 
 **Familiar:** Kafka, HTML, Databricks - Apache Spark, CSS, Rust, C++, Springboot, Cloud Computing, Microsoft Azure
 
