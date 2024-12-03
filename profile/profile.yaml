@@ -19,7 +19,12 @@ skills:
     - MySQL
     - Databricks
     - CompTIA IT Fundamentals
+<<<<<<< HEAD
+=======
+    - PySpark
+>>>>>>> develop
   familiar:
+    - Kafka
     - HTML
     - Databricks - Apache Spark
     - CSS
