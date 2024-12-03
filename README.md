@@ -11,10 +11,6 @@ I hold a Bachelor of Science Honors degree in Computer Science from Trent Univer
 
 **Familiar:** HTML, Databricks - Apache Spark, CSS, Rust, C++, Springboot, Cloud Computing, Microsoft Azure
 
-**Competent:** C#, Docker, Linux, Bash, MySQL, Databricks, CompTIA IT Fundamentals, PySpark
-
-**Familiar:** Kafka, HTML, Databricks - Apache Spark, CSS, Rust, C++, Springboot, Cloud Computing, Microsoft Azure
-
 
 ## Jarvis Projects
 
