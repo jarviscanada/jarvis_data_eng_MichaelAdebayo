@@ -46,6 +46,11 @@ jarvis_projects:
 
       Stock Quote App: Completed a Stock Quote application that allows users to manage and track stock positions by interacting with a PostgreSQL database. The application retrieves real-time stock data using the Alpha Vantage API, with data parsing handled by JSON and HTTP requests managed via the OkHttp library. The project was implemented in Java, employing the DAO design pattern to separate business logic from data access. Testing was done using JUnit and Mockito as well as manual testing to ensure the application ran correctly. The application was containerized with Docker for easy deployment.
 
+  - name: "Kafka - Python"
+    git_url: ""
+    description: >
+      Created a simple application that processes streaming data from Apache Kafka using PySpark. The application reads data from a Kafka topic containing an ordered list of JSON messages from numbers 0-9. These messages are transformed from binary to string format and then parsed to extract the number field. A transformation was then applied to double the extracted number. Then to be able to query the streaming data, PySpark’s writeStream was used to write the data into an in-memory table. This table provided a snapshot of the streaming data, allowing for more transformations, adding the timestamps to each message to indicate when it was produced was a transformation that was performed .
+  
 highlighted_projects:
   - name: "Pokemon Trainer Game"
     git_url: "https://github.com/MichaelAdebayo/Pokemon_Project"
